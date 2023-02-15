@@ -1,0 +1,891 @@
+@media (max-width: 375px) {
+/*  Hotels Home  */
+  .hotels-offers h3 {
+    font-size: 24px
+  }
+  
+  .hotels-deals {
+    padding: 30px 0
+  }
+    
+  .hotels-deals h3 {
+    font-size: 24px
+  }
+  
+  .hotels-special h3 {
+    font-size: 25px;
+    padding-top: 20px
+  }
+  
+  .hotels-special .details .sp h5 {
+    font-size: 15px
+  }
+  
+  .hotels-special .sp-img {
+    height: 100%;
+    width: 100%
+  }
+  
+  .hotels-special .details .sp p {
+    padding-bottom: 10px
+  }
+  
+  .hotels-special .details .nums {
+    position: relative
+  }
+  
+/*  Hotels Deal Result  */
+  .results-filter .filter-checkIn,
+  .results-filter .filter-checkOut {
+    margin-bottom: 15px
+  }
+  
+  .deal-result .hotel-block {
+    padding: 0  
+  }
+  
+  .deal-result .hotel-block .img-link {
+    height: 200px;
+    right: 0
+  }
+  
+ .deal-result .hotel-block .details {
+    padding: 15px 8px
+  }
+  
+  .deal-result .hotel-block .details h5 {
+    font-size: 16px
+  }
+  
+  .deal-result .hotel-block .hotel-stars span {
+    font-size: 14px
+  }
+  
+  .deal-result .hotel-block .services img {
+    width: 20px;
+    height: 20px
+  }
+  
+  .deal-result .hotel-block .options {
+    text-align: center
+  }
+  
+  .deal-result .hotel-block .options a {
+    padding: 7px 5px;
+    font-size: 12px;
+    margin-bottom: 5px
+  }
+  
+  .deal-result .hotel-block .info {
+    font-size: 12px
+  }
+  
+  .deal-result .about-city {
+    padding: 15px 25px;
+  }
+  
+  .deal-result .about-city h5 {
+    font-size: 16px
+  }
+  
+  .deal-result .about-city p {
+    font-size: 14px
+  }
+  
+  .deal-result .other-links {
+    display: none
+  }  
+  
+/*  Hotel Details*/
+  .hotels-breadcrumb {
+    display: none
+  }
+  
+  .hotel-info .hotel-pics .header h3 {
+    font-size: 18px;
+    padding-top: 15px
+  }
+  
+  .flex-direction-nav a:before,
+  .flex-direction-nav a:after {
+    color: #fff
+  }
+  
+  .hotel-info .hotel-slider .thumb-slider {
+    display: none
+  }
+  
+  .hotel-info .details .price .room button {
+    width: 100px;
+    font-size: 12px
+  }
+  
+  .hotel-info .amenities {
+    padding: 0
+  }
+  
+  .hotel-info .info {
+    padding: 0
+  }
+  
+  .hotel-info .amenities h5,
+  .hotel-info .info h5,
+  .hotel-info .policy h5 {
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+    background: #ccc;
+    border-radius: 5px
+  }
+  
+  .hotel-info .amenities h5 i,
+  .hotel-info .info h5 i,
+  .hotel-info .policy h5 i {
+    display: block
+  }
+  
+  .hotel-info .amenities .det,
+  .hotel-info .info .des,
+  .hotel-info .policy .des {
+    display: none
+  }
+  
+  .hotel-info .amenities .det li {
+    padding: 0 8px
+  }
+  
+  .hotel-info .amenities .det li img {
+    width: 30px
+  }
+  
+  .hotel-info .research h5 {
+    margin-top: 12px
+  }
+  
+  .hotel-info .research .searchBtn {
+    padding-top: 10px
+  }
+  
+  .hotel-info .research .searchBtn button {
+    font-size: 12px;
+  }
+  
+  .hotel-info .rooms .rooms-filter {
+    display: none
+  }
+  
+  .hotel-info .rooms .room-info .other-ser .room-select {
+    height: 110px
+  }
+  
+  .hotel-info .rooms .room-info .other-ser .room-select .table-cell {
+    padding: 0
+  }
+  
+  .hotel-info .rooms .room-info .other-ser .room-select .table-cell .prices .room-price {
+    font-size: 18px
+  }
+  
+  .hotel-info .rooms .room-info .other-ser .room-select .table-cell .prices .reserve {
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 6px 12px
+  }
+  
+  .hotel-info .rooms .room-info .room-header .room-services {
+    padding: 10px 20px
+  }
+    
+  .hotel-info .rooms .room-info .room-services .ser span img {
+    font-size: 15px
+  }
+  
+  .hotel-info .rooms .room-info .other-ser .room-select .table-cell .prices .include {
+    font-size: 10px
+  }
+  
+  .hotel-info .rooms .room-info .room-services .ser span {
+    font-size: 12px
+  }
+  
+  .hotel-info .rooms .room-info .room-services .info-popup {
+    display: inline-block
+  }
+  
+  .hotel-info .rooms .room-info .room-services .max-num {
+    display: inline-block
+  }
+  
+  .hotel-info .rooms .room-info .other-ser .room-select .table-cell .pay-in,
+  .hotel-info .rooms .room-info .other-ser .room-select .table-cell .pay-now {
+    padding: 2px 4px;
+    font-size: 10px
+  }
+  
+  .hotel-info .rooms .room-info .other-ser .room-select .table-cell .non-refundable,
+  .hotel-info .rooms .room-info .other-ser .room-select .table-cell .refundable {
+    font-size: 12px
+  }
+  
+  .hotel-info .similar-hotels {
+    display: none
+  }
+  
+  .hotel-info .room-modal .modal-dialog {
+    display: none
+  }
+  
+  .hotel-info .rooms .room-info .room-header .room-services .info-popup .pop {
+    display: none
+  }
+  
+/*  Hotels Search  */
+  .hotels-breadcrumb {
+    display: none
+  }
+  
+  .search-results .full-filter {
+    position: fixed;
+    width: 96%;
+    height: 100%;
+    z-index: 10;
+    top: 0;
+    right: 2%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: none
+  }
+  
+  .search-results .full-filter .header {
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 5px 5px 0 0
+  }
+  
+  .search-results .full-filter .filter-options {
+    border: 1px solid #ccc;
+    background: #fff
+  }
+  
+  .search-results .toggle-filter {
+    display: block
+  }
+  
+  .search-results .hotel-block .img-link {
+    height: 220px
+  }
+  
+  .search-results .hotel-block .details h5 {
+    font-size: 16px
+  }
+  
+  .search-results .price-plan {
+    border-right: none
+  }
+  
+  .search-results .category .txt {
+    margin-bottom: 10px;
+    display: block
+  }
+  
+  .search-results .category .links {
+    display: block;
+    padding-right: 0
+  }
+  
+  .search-results .category .links a {
+    padding: 6px;
+    margin: 2px 0 2px 2px
+  }
+    
+  
+}
+
+@media (min-width: 376px) and (max-width: 575px) {
+/*  Hotels Home  */
+  .hotels-deals h3 {
+    font-size: 30px
+  }
+  
+  .hotels-special h3 {
+    font-size: 25px;
+    padding-top: 20px
+  }
+  
+  .hotels-special .details .sp h5 {
+    font-size: 15px
+  }
+  
+  .hotels-special .sp-img {
+    height: 100%;
+    width: 100%
+  }
+  
+  .hotels-special .details .sp p {
+    padding-bottom: 10px
+  }
+  
+  .hotels-special .details .nums {
+    position: relative
+  }
+  
+/*  Hotels Deal Result  */
+  .results-filter .filter-checkIn,
+  .results-filter .filter-checkOut {
+    margin-bottom: 15px
+  }
+  
+  .deal-result .hotel-block {
+    padding: 0  
+  }
+  
+  .deal-result .hotel-block .img-link {
+    height: 250px;
+    right: 0
+  }
+  
+ .deal-result .hotel-block .details {
+    padding: 15px 8px
+  }
+  
+  .deal-result .hotel-block .details h5 {
+    font-size: 16px
+  }
+  
+  .deal-result .hotel-block .services img {
+    width: 20px;
+    height: 20px
+  }
+  
+  .deal-result .hotel-block .options a {
+    padding: 7px 5px;
+    font-size: 12px
+  }
+  
+  .deal-result .about-city {
+    padding: 15px 25px;
+  }
+  
+  .deal-result .about-city h5 {
+    font-size: 16px
+  }
+  
+  .deal-result .about-city p {
+    font-size: 14px
+  }
+  
+  .deal-result .other-links {
+    display: none
+  }
+  
+/*  Hotel Details*/
+  .flex-direction-nav a:before,
+  .flex-direction-nav a:after {
+    color: #fff
+  }
+  
+  .hotel-info .hotel-slider .thumb-slider {
+    display: none
+  }
+  
+  .hotel-info .amenities {
+    padding: 0
+  }
+  
+  .hotel-info .info {
+    padding: 0
+  }
+  
+  .hotel-info .amenities h5,
+  .hotel-info .info h5,
+  .hotel-info .policy h5 {
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+    background: #ccc;
+    border-radius: 5px
+  }
+  
+  .hotel-info .amenities h5 i,
+  .hotel-info .info h5 i,
+  .hotel-info .policy h5 i {
+    display: block
+  }
+  
+  .hotel-info .amenities .det,
+  .hotel-info .info .des,
+  .hotel-info .policy .des {
+    display: none
+  }
+  
+  .hotel-info .amenities .det li {
+    padding: 0 8px
+  }
+  
+  .hotel-info .amenities .det li img {
+    width: 30px
+  }
+  
+  .hotel-info .research h5 {
+    margin-top: 12px
+  }
+  
+  .hotel-info .research .searchBtn {
+    padding-top: 10px
+  }
+  
+  .hotel-info .research .searchBtn button {
+    font-size: 12px;
+  }
+  
+  .hotel-info .rooms .rooms-filter {
+    display: none
+  }
+  
+  .hotel-info .rooms .room-info .other-ser .room-select {
+    height: 110px
+  }
+  
+  .hotel-info .rooms .room-info .other-ser .room-select .table-cell {
+    padding: 0
+  }
+  
+  .hotel-info .rooms .room-info .other-ser .room-select .table-cell .prices .room-price {
+    font-size: 18px
+  }
+  
+  .hotel-info .rooms .room-info .other-ser .room-select .table-cell .prices .reserve {
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 6px 12px
+  }
+  
+  .hotel-info .rooms .room-info .room-header .room-services {
+    padding: 10px 20px
+  }
+  
+  .hotel-info .rooms .room-info .room-services .ser span img {
+    font-size: 15px
+  }
+  
+  .hotel-info .rooms .room-info .other-ser .room-select .table-cell .prices .include {
+    font-size: 10px
+  }
+  
+  .hotel-info .rooms .room-info .room-services .ser span {
+    font-size: 12px
+  }
+  
+  .hotel-info .rooms .room-info .room-services .info-popup {
+    display: inline-block
+  }
+  
+  .hotel-info .rooms .room-info .room-services .max-num {
+    display: inline-block
+  }
+  
+  .hotel-info .rooms .room-info .other-ser .room-select .table-cell .pay-in,
+  .hotel-info .rooms .room-info .other-ser .room-select .table-cell .pay-now {
+    padding: 2px 4px;
+    font-size: 10px
+  }
+  
+  .hotel-info .rooms .room-info .other-ser .room-select .table-cell .non-refundable,
+  .hotel-info .rooms .room-info .other-ser .room-select .table-cell .refundable {
+    font-size: 12px
+  }
+  
+  .hotel-info .similar-hotels {
+    display: none
+  }
+  
+  .hotel-info .room-modal .modal-dialog {
+    display: none
+  }
+  
+  .hotel-info .rooms .room-info .room-header .room-services .info-popup .pop {
+    display: none
+  }
+  
+/*  Hotels Search  */
+  .hotels-breadcrumb .breadcrumb .breadcrumb-item a {
+    font-size: 12px
+  }
+  
+  .search-results .full-filter {
+    position: fixed;
+    width: 96%;
+    height: 100%;
+    z-index: 10;
+    top: 0;
+    right: 2%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: none
+  }
+  
+  .search-results .full-filter .header {
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 5px 5px 0 0
+  }
+  
+  .search-results .full-filter .filter-options {
+    border: 1px solid #ccc;
+    background: #fff
+  }
+  
+  .search-results .toggle-filter {
+    display: block
+  }
+  
+  .search-results .hotel-block .img-link {
+    height: 220px
+  }
+  
+  .search-results .price-plan {
+    border-right: none
+  }
+  
+  .search-results .category .txt {
+    margin-bottom: 10px;
+    display: block
+  }
+  
+  .search-results .category .links {
+    display: block;
+    padding-right: 0
+  }
+  
+  .search-results .category .links a {
+    padding: 6px;
+    margin: 2px 0 2px 2px
+  }
+    
+     
+ }
+
+@media (min-width: 576px) and (max-width: 767px) {
+/*  Hotels Home  */
+  .hotels-deals h3 {
+    font-size: 30px
+  }
+  
+  .hotels-special h3 {
+    font-size: 25px;
+    padding-top: 20px
+  }
+  
+  .hotels-special .details .sp h5 {
+    font-size: 15px
+  }
+  
+  .hotels-special .sp-img {
+    height: 100%;
+    width: 100%
+  }
+  
+  .hotels-special .details .sp p {
+    padding-bottom: 10px
+  }
+  
+  .hotels-special .details .nums {
+    position: relative
+  }
+  
+/*  Hotels Deal Result  */
+  .results-filter .filter-checkIn,
+  .results-filter .filter-checkOut {
+    margin-bottom: 15px
+  }
+  
+  .deal-result .hotel-block {
+    padding: 0  
+  }
+  
+  .deal-result .hotel-block .img-link {
+    height: 250px;
+    right: 0
+  }
+  
+ .deal-result .hotel-block .details {
+    padding: 15px
+  }
+  
+  .deal-result .other-links {
+    display: none
+  }
+  
+/*  Hotel Details*/
+  .flex-direction-nav a:before,
+  .flex-direction-nav a:after {
+    color: #fff
+  }
+  
+  .hotel-info .hotel-slider .thumb-slider {
+    display: none
+  }
+  
+  .hotel-info .amenities .det li {
+    padding: 0 8px
+  }
+  
+  .hotel-info .amenities .det li img {
+    width: 30px
+  }
+  
+  .hotel-info .research h5 {
+    margin-top: 12px
+  }
+  
+  .hotel-info .research .searchBtn {
+    padding-top: 10px
+  }
+  
+  .hotel-info .research .searchBtn button {
+    font-size: 12px;
+  }
+  
+  .hotel-info .rooms .rooms-filter h5 {
+    font-size: 12px
+  }
+  
+  .hotel-info .rooms .rooms-filter .opt-menu {
+    padding: 5px 2px
+  }
+  
+  .hotel-info .rooms .rooms-filter .opt-menu ul li label {
+    font-size: 10px
+  }
+  
+  .hotel-info .rooms .rooms-filter .opt-menu ul li label input {
+    margin-left: 2px
+  }
+  
+  .hotel-info .rooms .room-info .other-ser .room-select {
+    height: 130px
+  }
+  
+  .hotel-info .rooms .room-info .other-ser .room-select .table-cell {
+    padding: 0
+  }
+  
+  .hotel-info .rooms .room-info .other-ser .room-select .table-cell .prices .room-price {
+    font-size: 18px
+  }
+  
+  .hotel-info .rooms .room-info .other-ser .room-select .table-cell .prices .reserve {
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 6px 12px
+  }
+  
+  .hotel-info .rooms .room-info .room-services .ser span img {
+    font-size: 15px
+  }
+  
+  .hotel-info .rooms .room-info .other-ser .room-select .table-cell .prices .include {
+    font-size: 10px
+  }
+  
+  .hotel-info .rooms .room-info .room-services .ser span {
+    font-size: 12px
+  }
+  
+  .hotel-info .rooms .room-info .other-ser .room-select .table-cell .pay-in,
+  .hotel-info .rooms .room-info .other-ser .room-select .table-cell .pay-now {
+    padding: 2px 4px;
+    font-size: 10px
+  }
+  
+  .hotel-info .rooms .room-info .other-ser .room-select .table-cell .non-refundable,
+  .hotel-info .rooms .room-info .other-ser .room-select .table-cell .refundable {
+    font-size: 12px
+  }
+  
+  .hotel-info .similar-hotels > .row > div {
+    margin-bottom: 5px
+  }
+  
+  .hotel-info .similar-hotels .sim-hotel .overlay {
+    padding-top: 66px
+  }
+    
+  .hotel-info .similar-hotels .sim-hotel .overlay h5 {
+    font-size: 14px
+  }
+  
+/*  Hotels Search  */
+  .search-results .full-filter {
+    position: fixed;
+    width: 96%;
+    height: 100%;
+    z-index: 10;
+    top: 0;
+    right: 2%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: none
+  }
+  
+  .search-results .full-filter .header {
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 5px 5px 0 0
+  }
+  
+  .search-results .full-filter .filter-options {
+    border: 1px solid #ccc;
+    background: #fff
+  }
+  
+  .search-results .toggle-filter {
+    display: block
+  }
+  
+  .search-results .hotel-block .img-link {
+    height: 220px
+  }
+  
+  .search-results .price-plan {
+    border-right: none
+  }
+    
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+/*  Hotels Home  */
+  .hotels-deals h3 {
+    font-size: 30px
+  }
+  
+  .hotels-special h3 {
+    font-size: 25px
+  }
+  
+  .hotels-special .details .sp h5 {
+    font-size: 15px
+  }
+  
+  .hotels-special .sp-img {
+    height: 100%
+  }
+  
+  .hotels-special .details .sp p {
+    padding-bottom: 10px
+  }
+  
+  .hotels-special .details .nums {
+    position: relative
+  }
+  
+/*  Hotel Details*/
+  .hotel-info .amenities .det li {
+    padding: 0 8px
+  }
+  
+  .hotel-info .amenities .det li img {
+    width: 30px
+  }
+  
+  .hotel-info .research .searchBtn button {
+    font-size: 12px;
+  }
+  
+  .hotel-info .rooms .rooms-filter h5 {
+    font-size: 12px
+  }
+  
+  .hotel-info .rooms .room-info .other-ser .room-select {
+    height: 150px
+  }
+  
+  .hotel-info .rooms .room-info .other-ser .room-select .table-cell .prices .reserve {
+    font-size: 12px;
+    margin-top: 10px
+  }
+  
+  .hotel-info .rooms .room-info .other-ser .room-select .table-cell .prices .include {
+    font-size: 10px
+  }
+  
+  .hotel-info .rooms .room-info .room-services .ser span {
+    font-size: 12px
+  }
+  
+  .hotel-info .similar-hotels .sim-hotel .overlay {
+    padding-top: 66px
+  }
+    
+  .hotel-info .similar-hotels .sim-hotel .overlay h5 {
+    font-size: 14px
+  }
+  
+  
+  
+/*  Hotels Search Results  */
+  .search-results .category .links {
+    padding-right: 0
+  }
+  
+  .search-results .full-filter .header .filter-reset button {
+    float: none
+  }
+  
+  .search-results .full-filter .filter-options .tab-content .opt {
+    font-size: 12px
+  }
+  
+  .search-results .hotel-block {
+    padding: 0
+  }
+  
+  .search-results .hotel-block .img-link {
+    height: 230px;
+    margin-top: 0;
+    right: 0;
+    border-radius: 5px 5px 0 0
+  }
+  
+  .search-results .price-plan .pay-in {
+    left: -12px
+  }
+  
+  .search-results .hotel-block .discount {
+    right: -12px
+  }
+  
+  
+  
+    
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+/*  Hotels Search Results  */
+  .search-results .full-filter .header .filter-reset {
+    padding: 10px 5px
+  }
+  
+  .search-results .full-filter .header .filter-reset p {
+    font-size: 14px
+  }
+  
+  .search-results .full-filter .header .filter-reset button {
+    padding: 3px 0 0 0
+  }
+  
+}
+
+@media (max-width: 1200px) {
+  
+}
+
+
+
+
+
+
+
+

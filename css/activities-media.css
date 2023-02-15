@@ -1,0 +1,269 @@
+@media (max-width: 375px) {
+/*  Hotels Home  */
+  .activities-offers h3 {
+    font-size: 24px
+  }
+  
+  .activities-deals {
+    padding: 30px 0
+  }
+    
+  .activities-deals h3 {
+    font-size: 24px
+  }
+  
+  .activities-special h3 {
+    font-size: 25px;
+    padding-top: 20px
+  }
+  
+  .activities-special .details .sp h5 {
+    font-size: 15px
+  }
+  
+  .activities-special .sp-img {
+    height: 100%;
+    width: 100%
+  }
+  
+  .activities-special .details .sp p {
+    padding-bottom: 10px
+  }
+  
+  .activities-special .details .nums {
+    position: relative
+  }
+  
+/*  Hotels Deal Result  */
+  .research .filter-checkIn,
+  .research .filter-checkOut {
+    margin-bottom: 15px
+  }
+  
+  .results .hotel-block {
+    padding: 0  
+  }
+  
+  .results .hotel-block .img-link {
+    height: 200px;
+    right: 0
+  }
+  
+ .results .hotel-block .details {
+    padding: 15px 8px
+  }
+  
+  .results .hotel-block .details h5 {
+    font-size: 16px
+  }
+  
+  .results .hotel-block .hotel-stars span {
+    font-size: 14px
+  }
+  
+  .results .hotel-block .services img {
+    width: 20px;
+    height: 20px
+  }
+    
+  .results .hotel-block .info {
+    font-size: 12px
+  }
+  
+  .results .about-city {
+    padding: 15px 25px;
+  }
+  
+  .results .about-city h5 {
+    font-size: 16px
+  }
+  
+  .results .about-city p {
+    font-size: 14px
+  }
+  
+  .results .other-links {
+    display: none
+  }  
+  
+  .results .activity-details .activity-modal .amenities-list ul li {
+    width: 100%
+  }
+  
+  
+}
+
+@media (min-width: 376px) and (max-width: 575px) {
+/*  Hotels Home  */
+  .activities-deals h3 {
+    font-size: 30px
+  }
+  
+  .activities-special h3 {
+    font-size: 25px;
+    padding-top: 20px
+  }
+  
+  .activities-special .details .sp h5 {
+    font-size: 15px
+  }
+  
+  .activities-special .sp-img {
+    height: 100%;
+    width: 100%
+  }
+  
+  .activities-special .details .sp p {
+    padding-bottom: 10px
+  }
+  
+  .activities-special .details .nums {
+    position: relative
+  }
+  
+/*  Hotels Deal Result  */
+  .research .filter-checkIn,
+  .research .filter-checkOut {
+    margin-bottom: 15px
+  }
+  
+  .results .hotel-block {
+    padding: 0  
+  }
+  
+  .results .hotel-block .img-link {
+    height: 250px;
+    right: 0
+  }
+  
+ .results .hotel-block .details {
+    padding: 15px 8px
+  }
+  
+  .results .hotel-block .details h5 {
+    font-size: 16px
+  }
+  
+  .results .hotel-block .services img {
+    width: 20px;
+    height: 20px
+  }
+    
+  .results .about-city {
+    padding: 15px 25px;
+  }
+  
+  .results .about-city h5 {
+    font-size: 16px
+  }
+  
+  .results .about-city p {
+    font-size: 14px
+  }
+  
+  .results .other-links {
+    display: none
+  }
+       
+ }
+
+@media (min-width: 576px) and (max-width: 767px) {
+/*  Hotels Home  */
+  .activities-deals h3 {
+    font-size: 30px
+  }
+  
+  .activities-special h3 {
+    font-size: 25px;
+    padding-top: 20px
+  }
+  
+  .activities-special .details .sp h5 {
+    font-size: 15px
+  }
+  
+  .activities-special .sp-img {
+    height: 100%;
+    width: 100%
+  }
+  
+  .activities-special .details .sp p {
+    padding-bottom: 10px
+  }
+  
+  .activities-special .details .nums {
+    position: relative
+  }
+  
+/*  Hotels Deal Result  */
+  .research .filter-checkIn,
+  .research .filter-checkOut {
+    margin-bottom: 15px
+  }
+  
+  .results .hotel-block {
+    padding: 0  
+  }
+  
+  .results .hotel-block .img-link {
+    height: 250px;
+    right: 0
+  }
+  
+ .results .hotel-block .details {
+    padding: 15px
+  }
+  
+  .results .other-links {
+    display: none
+  }
+      
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+/*  Hotels Home  */
+  .activities-deals h3 {
+    font-size: 30px
+  }
+  
+  .activities-special h3 {
+    font-size: 25px
+  }
+  
+  .activities-special .details .sp h5 {
+    font-size: 15px
+  }
+  
+  .activities-special .sp-img {
+    height: 100%
+  }
+  
+  .activities-special .details .sp p {
+    padding-bottom: 10px
+  }
+  
+  .activities-special .details .nums {
+    position: relative
+  }
+  
+  
+    
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+@media (max-width: 1200px) {
+  
+}
+
+
+
+
+
+
+
+

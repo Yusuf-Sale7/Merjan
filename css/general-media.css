@@ -1,0 +1,333 @@
+@media (max-width: 375px) {
+ .nbar .dropdown {
+    display: none
+  }
+    
+  .nbar .logo img {
+    width: 110px
+  }
+  
+  .nbar .dropdown {
+    padding: 3px 24px
+  }
+  
+  .nbar .openMenu .openBtn {
+    margin-top: 0
+  }
+  
+  .float-menu .menu {
+    width: 280px
+  }
+  
+  .target {
+    padding: 60px 0;
+    height: 400px
+  }
+  
+  .target .hotel-box,
+  .target .activity-box,
+  .target .holiday-box {
+    width: 100%
+  }
+  
+  .target .hotel-box .search-box input,
+  .target .activity-box .search-box input,
+  .target .holiday-box .search-box input {
+    font-size: 14px
+  }
+  
+  .target .hotel-box .check-out {
+    margin-top: 15px
+  }
+  
+  .target .hotel-box .searchBtn button,
+  .target .activity-box .searchBtn button,
+  .target .holiday-box .searchBtn button {
+    width: 70%;
+    margin-right: 30%;
+    height: 40px
+  }
+  
+  .target .hotel-box .check-out input {
+    border: none
+  }
+    
+  .reviews h3 {
+    font-size: 30px
+  }
+  
+  .app .app-img {
+    display: none
+  }
+  
+  .app .txt {
+    padding-top: 0;
+    text-align: center
+  }
+  
+  .app .links {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center
+  }
+  
+  .app .links a img {
+    width: 100px
+  }
+  
+  .footer .links1 {
+    padding-bottom: 0
+  }
+  
+  .footer .links2 {
+    padding-right: 0
+  }
+  
+  .footer .social {
+    padding: 20px 0
+  }
+  
+/*  Reserve Page  */
+  .reserve-page .reserve-details .pic .details address {
+    font-size: 14px
+  }
+  
+  .reserve-page .reserve-details .period h5 {
+    font-size: 16px
+  }
+  
+  .reserve-page .reserve-details .period p {
+    font-size: 14px
+  }
+  
+  .reserve-page .reserve-details .more-details h5 {
+    font-size: 16px
+  }
+  
+  .reserve-page .reserve-details .more-details p {
+    font-size: 14px
+  }
+  
+  .reserve-page .reserve-details .paid {
+    font-size: 18px
+  }
+  
+  .reserve-page .reserve-form {
+    padding-top: 40px
+  }
+}
+
+@media (min-width: 376px) and (max-width: 575px) {
+  .nbar .dropdown {
+    margin-right: 10px
+  }
+    
+  .nbar .logo img {
+    width: 110px
+  }
+  
+  .nbar .dropdown {
+    padding: 3px 24px
+  }
+  
+  .nbar .openMenu .openBtn {
+    margin-top: 0
+  }
+  
+  .target {
+    padding: 60px 0;
+    height: 400px
+  }
+  
+  .target .tabs .nav-pills .nav-item a {
+    font-size: 14px!important;
+    padding: 10px 8px;
+  }
+  
+  .target .hotel-box,
+  .target .activity-box,
+  .target .holiday-box {
+    width: 100%
+  }
+  
+  .target .hotel-box .search-box input,
+  .target .activity-box .search-box input,
+  .target .holiday-box .search-box input {
+    font-size: 14px
+  }
+    
+  .target .hotel-box .check-out {
+    margin-top: 15px
+  }
+  
+  .target .hotel-box .check-out input {
+    border: none
+  }
+  
+  .target .hotel-box .searchBtn button,
+  .target .activity-box .searchBtn button,
+  .target .holiday-box .searchBtn button {
+    height: 40px;
+    width: 50%;
+    margin-right: 50%
+  }
+    
+  .reviews h3 {
+    font-size: 30px
+  }
+  
+  .app .app-img {
+    display: none
+  }
+  
+  .app .txt {
+    padding-top: 0;
+    padding-bottom: 20px;
+    text-align: center
+  }
+  
+  .app .links {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center
+  }
+  
+  .footer .links1 {
+    padding-bottom: 0
+  }
+  
+  .footer .links2 {
+    padding-right: 0
+  }
+  
+  .footer .social {
+    padding: 20px 0
+  }
+  
+/*  Reserve Page*/
+  .reserve-page .reserve-form {
+    padding-top: 40px
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .nbar .dropdown {
+    margin-right: 20px
+  }
+  
+  .target {
+    padding: 60px 0;
+    height: 400px
+  }
+  
+  .target .hotel-box,
+  .target .activity-box,
+  .target .holiday-box {
+    width: 100%
+  }
+  
+  .target .hotel-box .search-box input,
+  .target .activity-box .search-box input,
+  .target .holiday-box .search-box input {
+    font-size: 15px
+  }
+    
+  .target .hotel-box .check-out {
+    margin-top: 15px
+  }
+  
+  .target .hotel-box .check-out input {
+    border: none
+  }
+  
+  .target .hotel-box .searchBtn button,
+  .target .activity-box .searchBtn button,
+  .target .holiday-box .searchBtn button {
+    height: 40px;
+    width: 35%;
+    margin-right: 65%
+  }
+        
+  .reviews h3 {
+    font-size: 30px
+  }
+  
+  .app .app-img {
+    display: none
+  }
+  
+  .app .txt {
+    padding-top: 0;
+    padding-bottom: 20px;
+    text-align: center
+  }
+  
+  .app .links {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center
+  }
+  
+  .footer .links1 {
+    padding-bottom: 0
+  }
+  
+  .footer .links2 {
+    padding-right: 0
+  }
+  
+  .footer .social {
+    padding: 20px 0
+  }
+  
+/*  Reserve Page*/
+  .reserve-page .reserve-form {
+    padding-top: 40px
+  }
+  
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .target {
+    padding: 60px 0;
+    height: 400px
+  }
+  
+  .target .hotel-box,
+  .target .activity-box,
+  .target .holiday-box {
+    width: 100%
+  }
+  
+  .target .hotel-box .search-box input,
+  .target .activity-box .search-box input,
+  .target .holiday-box .search-box input {
+    font-size: 15px
+  }
+    
+  .app .txt {
+    padding-top: 50px;
+    padding-bottom: 20px
+  }
+  
+  .app .links {
+    padding-top: 50px;
+    padding-bottom: 20px
+  }
+  
+  .footer .links1 {
+    padding-bottom: 0
+  }
+  
+  .footer .links2 {
+    padding-right: 0
+  }
+  
+}
+
+
+
+
+
+
+

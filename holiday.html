@@ -1,0 +1,637 @@
+<!Doctype html>
+<html>
+  <head>
+		<meta charset="UTF-8">
+		<link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon">
+    <!--IE Comatibility Meta-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <!--First Mobile Meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <title>هوليداي بغداد</title>
+    <link rel="stylesheet" href="assests/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assests/fontAwesome/css/fontawesome-all.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assests/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="assests/jqueryui/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="assests/jqueryui/jquery-ui.theme.min.css">
+    <link rel="stylesheet" type="text/css" href="assests/slick/slick-theme.css">
+    <link rel="stylesheet" href="assests/datedropper/datedropper.min.css"/>
+    <link rel="stylesheet" href="assests/flexslider/css/flexslider.css"/>
+    <link rel="stylesheet" href="css/general.css"/>
+    <link rel="stylesheet" href="css/holiday.css"/>
+    <link rel="stylesheet" href="css/hotels.css"/>
+    <link rel="stylesheet" href="css/activities.css"/>
+    <link rel="stylesheet" href="css/general-media.css"/>
+    <link rel="stylesheet" href="css/hotels-media.css"/>
+    <link rel="stylesheet" href="css/holiday-media.css"/>
+    <link rel="stylesheet" href="css/activities-media.css"/>
+  </head>
+  <body>
+    
+    
+<!--    Navbar   -->
+    <section class="nbar">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html"><img class="img-responsive" src="imgs/logo.png" alt="logo"></a>
+          
+          
+          
+          <div class="dropdown">
+            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="ir fa fa-globe"></i>عطلات
+            <i class="il fa fa-angle-down"></i>
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#"><i class="fa fa-angle-left"></i>عطلات</a>
+              <a class="dropdown-item" href="hotels-search.html"><i class="fa fa-angle-left"></i>الفنادق</a>
+              <a class="dropdown-item" href="activities.html"><i class="fa fa-angle-left"></i>الأنشطة</a>
+            </div>
+          </div>      
+          
+          
+          
+        </div>
+        <div class="links">
+          <a href="#">عن الموقع</a>
+          <a href="#">اتصل بنا</a>
+          <a href="#">تسجيل الدخول</a>
+        </div>
+        <div class="openMenu">
+          <button class="openBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </section>
+     
+<!--    Float Menu   -->
+    <section class="float-menu">
+			<div class="menu">
+				<ul class="items">
+					<li><a href="#features"><i class="fa fa-angle-left"></i>الفنادق</a></li>
+					<li><a href="#features"><i class="fa fa-angle-left"></i>عطلات</a></li>
+					<li><a href="#about"><i class="fa fa-angle-left"></i>الأنشطة</a></li>
+					<li><a href="#about"><i class="fa fa-angle-left"></i>عن الموقع</a></li>
+					<li><a href="#about"><i class="fa fa-angle-left"></i>اتصل بنا</a></li>
+					<li><a href="#about"><i class="fa fa-angle-left"></i>تسجيل الدخول</a></li>
+          <li class="mobiles">
+            <a href="tel:001122334455"><strong>الرقم الأماراتي :</strong><span>001122334455</span></a>
+            <a href="tel:001122334455"><strong>الرقم الأماراتي :</strong><span>001122334455</span></a>
+          </li>
+				</ul>
+			</div>	
+		</section>
+	   
+<!--    Search Box   -->
+    <div class="wrapper">
+      <section class="target">
+        <div class="container">
+          <div class="tabs">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="pills-trips-tab" data-toggle="pill" href="#pills-trips" role="tab" aria-controls="pills-home" aria-selected="true">عطلات</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-hotels-tab" data-toggle="pill" href="#pills-hotels" role="tab" aria-controls="pills-profile" aria-selected="false">الفنادق</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-activity-tab" data-toggle="pill" href="#pills-activity" role="tab" aria-controls="pills-activity" aria-selected="false">الأنشطة</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="holiday-box tab-pane fade show active" id="pills-trips" role="tabpanel" aria-labelledby="pills-trips-tab">
+              
+                <div class="container">
+                  <div class="row">
+                    <div class="search-box col-12">
+                      <i class="fa fa-map-marker-alt"></i>
+                      <input class="form-control hotel-place" type="text" placeholder="أدخل الوجهة التي تريد السفر إليها">
+                    </div>
+                    <div class="searchBtn col-12">
+                      <button>بحث</button>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              
+              <div class="hotel-box tab-pane fade" id="pills-hotels" role="tabpanel" aria-labelledby="pills-hotels-tab">
+
+                <div class="container">
+                  <div class="row">
+                    <div class="search-box col-12">
+                      <i class="fa fa-map-marker-alt"></i>
+                      <input class="form-control hotel-place" type="text" placeholder="مدينة أو فندق محدد">
+                    </div>
+                    <div class="check-in col-md-6">
+                      <i class="fa fa-calendar-alt"></i>
+                      <input class="form-control datePicker" type="text" readonly autocomplete="off" data-init-set="false" data-large-default="true" data-large-mode="true" data-translate-mode="true" placeholder="يوم - شهر - سنة" data-id="datedropper-0" data-format="d - M - Y" data-lang="ar">
+                    </div>
+                    <div class="check-out col-md-6">
+                      <i class="fa fa-calendar-alt"></i>
+                      <input class="form-control datePicker" type="text" readonly autocomplete="off" data-init-set="false" data-large-default="true" data-large-mode="true" data-translate-mode="true" placeholder="يوم - شهر - سنة" data-id="datedropper-0" data-format="d - M - Y" data-lang="ar">
+                    </div>
+                    <div class="searchBtn col-12">
+                      <button>بحث</button>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              
+              <div class="activity-box tab-pane fade" id="pills-activity" role="tabpanel" aria-labelledby="pills-activity-tab">
+              
+                <div class="container">
+                  <div class="row">
+                    <div class="search-box col-12">
+                      <i class="fa fa-map-marker-alt"></i>
+                      <input class="form-control hotel-place" type="text" placeholder="البحث عن الأنشطة في الوجهة التي تريدها">
+                    </div>
+                    <div class="searchBtn col-12">
+                      <button>بحث</button>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    
+<!--    Offers   -->
+    <div class="wrapper">
+      <div class="holiday-offers">
+        <div class="container">
+          
+          <h3>عروض هوليداي-بغداد الحصرية</h3>
+          
+          <div class="tempOffers">
+          
+          
+              <div class="offer-block">
+                <a href="">
+                  <div class="offer">
+                    <img class="offer-img img-fluid" src="imgs/offer1.jpg" alt="offer">
+                    <div class="overlay">
+                      <p>
+                        العروض علي الفنادق
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+          
+          
+              <div class="offer-block">
+                <a href="">
+                  <div class="offer">
+                    <img class="offer-img img-fluid" src="imgs/offer2.jpg" alt="offer">
+                    <div class="overlay">
+                      <p>
+                        العروض علي الفنادق
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+          
+          
+              <div class="offer-block">
+                <a href="">
+                  <div class="offer">
+                    <img class="offer-img img-fluid" src="imgs/offer3.jpg" alt="offer">
+                    <div class="overlay">
+                      <p>
+                        العروض علي الفنادق
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+          
+          
+              <div class="offer-block">
+                <a href="">
+                  <div class="offer">
+                    <img class="offer-img img-fluid" src="imgs/offer4.jpg" alt="offer">
+                    <div class="overlay">
+                      <p>
+                        العروض علي الفنادق
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+          
+          
+              <div class="offer-block">
+                <a href="">
+                  <div class="offer">
+                    <img class="offer-img img-fluid" src="imgs/offer1.jpg" alt="offer">
+                    <div class="overlay">
+                      <p>
+                        العروض علي الفنادق
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+          
+          
+              <div class="offer-block">
+                <a href="">
+                  <div class="offer">
+                    <img class="offer-img img-fluid" src="imgs/offer2.jpg" alt="offer">
+                    <div class="overlay">
+                      <p>
+                        العروض علي الفنادق
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+          
+          
+              <div class="offer-block">
+                <a href="">
+                  <div class="offer">
+                    <img class="offer-img img-fluid" src="imgs/offer3.jpg" alt="offer">
+                    <div class="overlay">
+                      <p>
+                        العروض علي الفنادق
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+          
+          
+              <div class="offer-block">
+                <a href="">
+                  <div class="offer">
+                    <img class="offer-img img-fluid" src="imgs/offer4.jpg" alt="offer">
+                    <div class="overlay">
+                      <p>
+                        العروض علي الفنادق
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+          
+          
+           
+          
+          </div>
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+    
+    
+<!--    Best Deals   -->
+    <div class="wrapper">
+      <section class="holiday-deals">
+        <div class="container">
+          <h3>#الوجهات_المفضلة</h3>
+          <p class="intro">عطلات ورحلات مصممة بعناية إلى أفضل الوجهات السياحية</p>
+          <div class="row">
+            <div class="col-md-3 p10">
+              <a href="#">
+                <div class="info">
+                  <div class="holiday-img" style="background-image: url(imgs/holiday/h1.jpg)"></div>
+                  <div class="overlay">
+                    <p class="country">جورجيا</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3 p10">
+              <a href="#">
+                <div class="info">
+                  <div class="holiday-img" style="background-image: url(imgs/holiday/h2.jpg)"></div>
+                  <div class="overlay">
+                    <p class="country">تركيا</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3 p10">
+              <a href="#">
+                <div class="info">
+                  <div class="holiday-img" style="background-image: url(imgs/holiday/h3.jpg)"></div>
+                  <div class="overlay">
+                    <p class="country">ارمينيا</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3 p10">
+              <a href="#">
+                <div class="info">
+                  <div class="holiday-img" style="background-image: url(imgs/holiday/h4.jpg)"></div>
+                  <div class="overlay">
+                    <p class="country">ايطاليا</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    
+    
+<!--    Why Us - Holiday   -->
+    <div class="wrapper">
+      <section class="holiday-special">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <a href="#">
+                <img class="sp-img img-fluid" src="imgs/holiday/bset-prices.jpg" alt="...">
+              </a>
+            </div>
+            <div class="col-md-7">
+              <h3>ما الذي يميز هوليداي-بغداد؟</h3>
+              <p class="intro">
+                حققنا تصنيف 8,5 على TrustPilot وكسبنا رضا أكثر من 1,4 مليون عميل
+              </p>
+              <div class="container p0 details">
+                <div class="row">
+                  <div class="sp col-md-6">
+                    <h5><span></span>برامج سياحية قابلة للتعديل</h5>
+                    <p>تتيح لك التخطيط لعطلتك بمنتهى السهولة!</p>
+                  </div>
+                  <div class="sp col-md-6">
+                    <h5><span></span>نحظى بثقة عملائنا</h5>
+                    <p>حققنا تصنيف 8,5 على TrustPilot!</p>
+                  </div>
+                  <div class="sp col-md-6">
+                    <h5><span></span>أفضل الأسعار</h5>
+                    <p>نضمن أفضل الأسعار لكافة حجوزات الطيران والفنادق والعطلات، ومن دون أي رسوم خفية!</p>
+                  </div>
+                  <div class="sp col-md-6">
+                    <h5><span></span>خيارات سهلة للدفع</h5>
+                    <p>نوفر عملية حجز سهلة من خلال خيارات متنوعة للدفع مثل بطاقات فيزا وماستر كارد ومكاتب الأنصاري للصرافة وخدمة سداد، وغيرها الكثير!</p>
+                  </div>
+                  <div class="nums col-md-12">
+                    <h5>تواصلو معنا</h5>
+                    <div class="number">
+                      <a href="tel:800454545">
+                        <i class="fa fa-phone"></i><span class="con">الرقم الاماراتي:</span><span class="num">800454545</span>
+                      </a>
+                    </div>
+                    <div class="number">
+                      <a href="tel:800454545">
+                        <i class="fa fa-phone"></i><span class="con">الرقم السعودي:</span><span class="num">800454545</span>
+                      </a>
+                    </div>
+                    <div class="number">
+                      <a href="tel:800454545">
+                        <i class="fa fa-phone"></i><span class="con">الرقم الدولي:</span><span class="num">800454545</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    
+    
+<!--    Reviews   -->
+    <div class="wrapper">
+      <section class="reviews">
+        <div class="container">
+          <h3>تقييمات العملاء لهوليداي-بغداد</h3>
+          <div class="row">
+            <div class="col-md-12">
+              
+
+              <div class="user-rates">
+                <div class="rate-block">
+                  <div class="details">
+                    <div class="star-rating">
+                      <div class="stars">
+                        <span class="good"><img src="imgs/star.png"></span>
+                        <span class="good"><img src="imgs/star.png"></span>
+                        <span class="good"><img src="imgs/star.png"></span>
+                        <span class="good"><img src="imgs/star.png"></span>
+                        <span class="good"><img src="imgs/star.png"></span>
+                      </div>
+                      <div class="time">
+                        <span>دقيقة</span><span>20</span>
+                      </div>
+                    </div>
+                    <div class="header">
+                      Hotel booking cancelation
+                    </div>
+                    <div class="caption">
+                      يمكن القول انتم من اكثر الشركات العراقية مهنية في مجال السياحة ... حجزت على رحلة كاملة من مدينة العمارة و ساعدني الشاب انمار مساعدة رائعة فكمل الحجز و الشغل كله في يوم و فقط عن طريق المراسلة دون ان التقي باحد منهم وجه لوجه ... اهنيكم على الاخلاص في العمل !
+                    </div>
+                    <div class="user-name">
+                      Ali Salman
+                    </div>
+                  </div>
+                </div>
+                <div class="rate-block">
+                  <div class="details">
+                    <div class="star-rating">
+                      <div class="stars">
+                        <span class="good"><img src="imgs/star.png"></span>
+                        <span class="good"><img src="imgs/star.png"></span>
+                        <span class="good"><img src="imgs/star.png"></span>
+                        <span class="good"><img src="imgs/star.png"></span>
+                        <span class="good"><img src="imgs/star.png"></span>
+                      </div>
+                      <div class="time">
+                        <span>ساعات</span><span>3</span>
+                      </div>
+                    </div>
+                    <div class="header">
+                      Hotel booking cancelation
+                    </div>
+                    <div class="caption">
+                      شركة مميزة بكوادرها وبرامجها المتنوعة والمصداقية بالتعامل والالتزام بالبرامج بالموفقية والنجاح إن شاء الله
+                    </div>
+                    <div class="user-name">
+                      Lamia Ali
+                    </div>
+                  </div>
+                </div>
+                <div class="rate-block">
+                  <div class="details">
+                    <div class="star-rating">
+                      <div class="stars">
+                        <span class="good"><img src="imgs/star.png"></span>
+                        <span class="good"><img src="imgs/star.png"></span>
+                        <span class="good"><img src="imgs/star.png"></span>
+                        <span class="good"><img src="imgs/star.png"></span>
+                        <span class="good"><img src="imgs/star.png"></span>
+                      </div>
+                      <div class="time">
+                        <span>يوم</span><span>2</span>
+                      </div>
+                    </div>
+                    <div class="header">
+                      Hotel booking cancelation
+                    </div>
+                    <div class="caption">
+                      احسن شركة سياحة متميزين بكل شئ من ناحية التنظيم والفنادق والرحلات ويرضون المسافرين باخلاقهم العالية وكانت رحلة ماليزيا اجمل رحلة ومتميزة بجهود المسؤولين وخصوصا ست هالة التي كانت حريصة على نجاح الرحلة ومتميزة باخلاقها العالية وان شاء الله دائما اسافر مع شركتكم
+                    </div>
+                    <div class="user-name">
+                      Rana Aldilaimi
+                    </div>
+                  </div>
+                </div>
+                <div class="rate-block">
+                  <div class="details">
+                    <div class="star-rating">
+                      <div class="stars">
+                        <span class="good"><img src="imgs/star.png"></span>
+                        <span class="good"><img src="imgs/star.png"></span>
+                        <span class="good"><img src="imgs/star.png"></span>
+                        <span class="good"><img src="imgs/star.png"></span>
+                        <span class="bad"><img src="imgs/star.png"></span>
+                      </div>
+                      <div class="time">
+                        <span>يوم</span><span>3</span>
+                      </div>
+                    </div>
+                    <div class="header">
+                      Hotel booking cancelation
+                    </div>
+                    <div class="caption">
+                      شكرا جزيلا لكادر شركتكم وشكر خاص للكايد عبدالله انسان راقي ومحترم جدا وواجهة رائعة للشركة ( سفرة ماليزيا ) 
+                    </div>
+                    <div class="user-name">
+                      Nagham Salman
+                    </div>
+                  </div>
+                </div>
+                <div class="rate-block">
+                  <div class="details">
+                    <div class="star-rating">
+                      <div class="stars">
+                        <span class="good"><img src="imgs/star.png"></span>
+                        <span class="good"><img src="imgs/star.png"></span>
+                        <span class="good"><img src="imgs/star.png"></span>
+                        <span class="good"><img src="imgs/star.png"></span>
+                        <span class="good"><img src="imgs/star.png"></span>
+                      </div>
+                      <div class="time">
+                        <span>يوم</span><span>5</span>
+                      </div>
+                    </div>
+                    <div class="header">
+                      Hotel booking cancelation
+                    </div>
+                    <div class="caption">
+                      شركة مميزة ومعتبرة وتحقق الراحة والطمانينة للمسافرين والسواح وخصوصا في رحلات اوربا شكرا لهم لمصداقيتهم وجهودهم واخلاصهم لراحتنا .
+                    </div>
+                    <div class="user-name">
+                      Dr.Abdul Hadi
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+            
+<!--
+            <div class="col-md-2">
+            
+            </div>
+-->
+          </div>
+        </div>
+      </section>
+    </div>   
+
+    
+    
+<!--    Download App   -->
+    <div class="wrapper">
+      <div class="app">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <img class="app-img img-fluid" src="imgs/app.png" alt="...">
+            </div>
+            <div class="txt col-md-5">
+              <p>أينما كنت ووقتما شئت، يمكنك الحجز مع هوليداي-بغداد!</p>
+              <h5>حمل تطبيق هوليداي-بغداد المجاني الآن!</h5>
+            </div>
+            <div class="links col-md-4">
+              <a href="#"><img class="img-fluid" src="imgs/appstore.png" alt="..."></a>
+              <a href="#"><img class="img-fluid" src="imgs/googleplay.png" alt="..."></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-6 text-right">
+            <div class="links1">
+              <a href="#">من نحن؟</a>
+              <a href="#">تواصل معنا</a>
+              <a href="#">الشروط والأحكام</a>
+            </div>
+            <div class="links2">
+              <a href="#">سياسة الخصوصية</a>
+              <a href="#">الأسئلة المتكررة</a>
+              <a href="#">&nbsp;</a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 text-center">
+            <h5>نحن نقبل</h5>
+            <div class="pay-methodes">
+              <img src="imgs/pay/ansary.png" alt="...">
+              <img src="imgs/pay/sadad.png" alt="...">
+              <img src="imgs/pay/master-card.png" alt="...">
+              <img src="imgs/pay/visa.png" alt="...">
+              <img src="imgs/pay/switch.png" alt="...">
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <h5>تابعونا علي</h5>
+            <div class="social">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-google-plus-g"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid copyright">
+          تم التصميم والبرمجة من قبل شركة Code Studio
+      </div>
+    </div>
+
+    <script src="assests/jQuery/jquery-3.2.1.min.js"></script>
+    <script src="assests/flexslider/js/jquery.flexslider-min.js"></script>
+    <script src="assests/jqueryui/jquery-ui.min.js"></script>
+    <script src="assests/popper/popper.min.js"></script>
+    <script src="assests/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assests/slick/slick.js"></script>
+    <script src="assests/datedropper/datedropper.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

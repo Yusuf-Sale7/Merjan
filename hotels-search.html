@@ -1,0 +1,691 @@
+<!Doctype html>
+<html>
+  <head>
+		<meta charset="UTF-8">
+		<link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon">
+    <!--IE Comatibility Meta-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <!--First Mobile Meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <title>هوليداي بغداد</title>
+    <link rel="stylesheet" href="assests/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assests/fontAwesome/css/fontawesome-all.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assests/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="assests/jqueryui/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="assests/jqueryui/jquery-ui.theme.min.css">
+    <link rel="stylesheet" type="text/css" href="assests/slick/slick-theme.css">
+    <link rel="stylesheet" href="assests/datedropper/datedropper.min.css"/>
+    <link rel="stylesheet" href="assests/flexslider/css/flexslider.css"/>
+    <link rel="stylesheet" href="css/general.css"/>
+    <link rel="stylesheet" href="css/holiday.css"/>
+    <link rel="stylesheet" href="css/hotels.css"/>
+    <link rel="stylesheet" href="css/activities.css"/>
+    <link rel="stylesheet" href="css/hotels-media.css"/>
+  </head>
+  <body>
+    
+<!--    Navbar   -->
+    <section class="nbar">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html"><img class="img-responsive" src="imgs/logo.png" alt="logo"></a>
+          
+          
+          
+          <div class="dropdown">
+            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="ir fa fa-globe"></i>الفنادق
+            <i class="il fa fa-angle-down"></i>
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#"><i class="fa fa-angle-left"></i>عطلات</a>
+              <a class="dropdown-item" href="hotels-search.html"><i class="fa fa-angle-left"></i>الفنادق</a>
+              <a class="dropdown-item" href="activities.html"><i class="fa fa-angle-left"></i>الأنشطة</a>
+            </div>
+          </div>      
+          
+          
+          
+        </div>
+        <div class="links">
+          <a href="#">عن الموقع</a>
+          <a href="#">اتصل بنا</a>
+        </div>
+        <div class="openMenu">
+          <button class="openBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+</button>
+        </div>
+      </div>
+    </section>
+    
+    
+<!--    Float Menu   -->
+    <section class="float-menu">
+			<div class="menu">
+				<ul class="items">
+					<li><a href="#next"><i class="fa fa-angle-left"></i>الرئيسية</a></li>
+					<li><a href="#features"><i class="fa fa-angle-left"></i>الفنادق</a></li>
+					<li><a href="#features"><i class="fa fa-angle-left"></i>عطلات</a></li>
+					<li><a href="#pricing"><i class="fa fa-angle-left"></i>رحلات الطيران</a></li>
+					<li><a href="#about"><i class="fa fa-angle-left"></i>الأنشطة</a></li>
+					<li><a href="#get"><i class="fa fa-angle-left"></i>المدونة</a></li>
+					<li><a href="#get"><i class="fa fa-angle-left"></i>دليل السفر</a></li>
+          <li class="mobiles">
+            <a href="tel:001122334455"><strong>الرقم الأماراتي :</strong><span>001122334455</span></a>
+            <a href="tel:001122334455"><strong>الرقم الأماراتي :</strong><span>001122334455</span></a>
+          </li>
+				</ul>
+			</div>	
+		</section>
+		
+    
+    
+<!--    Search Results   -->
+    <div class="wrapper">
+      <section class="hotels-breadcrumb">
+        <div class="container">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">الصفحة الرئيسية</a></li>
+              <li class="breadcrumb-item"><a href="#">الفنادق</a></li>
+              <li class="breadcrumb-item active" aria-current="page"><a>المنامة, البحرين</a></li>
+            </ol>
+          </nav>
+        </div>      
+      </section>
+      <section class="results-filter">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="filter-target">
+                <i class="fa fa-map-marker-alt"></i>
+                <input class="form-control" type="text" placeholder="االبلد, المدينة">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="filter-checkIn">
+                <i class="fa fa-calendar-alt"></i>
+                <input class="form-control datePicker" type="text" readonly autocomplete="off" data-init-set="false" data-large-default="true" data-large-mode="true" data-translate-mode="true" placeholder="يوم - شهر - سنة" data-id="datedropper-0" data-format="d - M - Y" data-lang="ar">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="filter-checkOut">
+                <i class="fa fa-calendar-alt"></i>
+                <input class="form-control datePicker" type="text" readonly autocomplete="off" data-init-set="false" data-large-default="true" data-large-mode="true" data-translate-mode="true" placeholder="يوم - شهر - سنة" data-id="datedropper-0" data-format="d - M - Y" data-lang="ar">
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="searchBtn">
+                <button>بحث</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="search-results">
+        <div class="container p0">
+          <div class="toggle-filter">
+            <div class="open-filter"><i class="fa fa-filter"></i></div>
+            <div class="apply-filter">تطبيق</div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-lg-3">
+              <div class="full-filter">
+                
+                <div class="header">
+                  <div class="place-name">
+                    <div class="num"><span>94</span>فندق في</div>
+                    <div class="place">المنامة, البحرين</div>                 
+                  </div>
+                  <div class="filter-reset">
+                    <p>تصفية نتائج البحث</p>
+                    <button><i class="fa fa-redo"></i>إعادة ضبط الكل</button>
+                  </div>
+                </div>
+                
+                
+                <div class="filter-options">
+                  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link active" id="pills-price-tab" data-toggle="pill" href="#pills-price" role="tab" aria-controls="pills-price" aria-selected="true">السعر<i class="fa fa-tag"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="pills-ratings-tab" data-toggle="pill" href="#pills-ratings" role="tab" aria-controls="pills-ratings" aria-selected="false">تقييمات<i class="fa fa-star"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="pills-location-tab" data-toggle="pill" href="#pills-location" role="tab" aria-controls="pills-location" aria-selected="false">الموقع<i class="fa fa-map-marker"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="pills-facilities-tab" data-toggle="pill" href="#pills-facilities" role="tab" aria-controls="pills-facilities" aria-selected="false">المرافق<i class="fa fa-map-marker"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="pills-type-tab" data-toggle="pill" href="#pills-type" role="tab" aria-controls="pills-type" aria-selected="false">نوع الفندق<i class="fa fa-map-marker"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="pills-hotel-series-tab" data-toggle="pill" href="#pills-hotel-series" role="tab" aria-controls="pills-hotel-series" aria-selected="false">سلسلة فنادق<i class="fa fa-map-marker"></i></a>
+                    </li>
+                  </ul>
+                  
+                  
+                  
+                  <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-one tab-pane fade show active" id="pills-price" role="tabpanel" aria-labelledby="pills-price-tab">
+                      <div class="hotel-name">
+                        <h5>اسم الفندق</h5>
+                        <input class="form-control" type="text" placeholder="اسم الفندق">
+                      </div>
+                      <div class="prices-range">
+                        <h5>نطاق الأسعار</h5>
+
+                        <div class="range">
+                          <input readonly class="amount" type="text" id="amount">
+                          <div class="bar" id="slider-range"></div>
+                          <span class="min-val">0<span> EG</span></span>
+                          <span class="max-val">10000<span> EG</span></span>
+                        </div>
+
+                    </div>
+                      
+                      <div class="ser">
+                        <label for="deal" class="opt">
+                          <input type="checkbox" id="deal"><i class="fa fa-bookmark"></i>خصومات
+                        </label>
+                       <label for="wifi" class="opt">
+                          <input type="checkbox" id="wifi"><i class="fa fa-wifi"></i>واي فاي / إنترنت في الفندق
+                        </label>
+                       <label for="payin" class="opt">
+                          <input type="checkbox" id="payin"><i class="fa fa-key"></i>الدفع في الفندق
+                        </label>
+                      </div>
+                    </div>
+
+
+                    <div class="tab-two tab-pane fade show active" id="pills-ratings" role="tabpanel" aria-labelledby="pills-ratings-tab">
+                       <div class="filter-stars">
+                        <h5>عدد النجوم</h5>
+                        
+                        <div class="h-stars">
+                          <label for="s5" class="opt">
+                            <input type="checkbox" id="s5">
+                            <div class="strs">
+                              <span class="fa fa-star true"></span>
+                              <span class="fa fa-star true"></span>
+                              <span class="fa fa-star true"></span>
+                              <span class="fa fa-star true"></span>
+                              <span class="fa fa-star true"></span>
+                            </div>
+                            <div class="num">(<span>12</span>)</div>
+                          </label>
+
+                          <label for="s4" class="opt">
+                            <input type="checkbox" id="s4">
+                            <div class="strs">
+                              <span class="fa fa-star true"></span>
+                              <span class="fa fa-star true"></span>
+                              <span class="fa fa-star true"></span>
+                              <span class="fa fa-star true"></span>
+                              <span class="fa fa-star false"></span>
+                            </div>
+                            <div class="num">(<span>12</span>)</div>
+                          </label>
+
+                          <label for="s3" class="opt">
+                            <input type="checkbox" id="s3">
+                            <div class="strs">
+                              <span class="fa fa-star true"></span>
+                              <span class="fa fa-star true"></span>
+                              <span class="fa fa-star true"></span>
+                              <span class="fa fa-star false"></span>
+                              <span class="fa fa-star false"></span>
+                            </div>
+                            <div class="num">(<span>12</span>)</div>
+                          </label>
+
+                          <label for="s2" class="opt">
+                            <input type="checkbox" id="s2">
+                            <div class="strs">
+                              <span class="fa fa-star true"></span>
+                              <span class="fa fa-star true"></span>
+                              <span class="fa fa-star false"></span>
+                              <span class="fa fa-star false"></span>
+                              <span class="fa fa-star false"></span>
+                            </div>
+                            <div class="num">(<span>12</span>)</div>
+                          </label>
+
+                          <label for="s1" class="opt">
+                            <input type="checkbox" id="s1">
+                            <div class="strs">
+                              <span class="fa fa-star true"></span>
+                              <span class="fa fa-star false"></span>
+                              <span class="fa fa-star false"></span>
+                              <span class="fa fa-star false"></span>
+                              <span class="fa fa-star false"></span>
+                            </div>
+                            <div class="num">(<span>12</span>)</div>
+                          </label>
+
+                        </div>
+                        
+                        
+                      </div>                  
+                    </div>
+
+
+                    <div class="tab-three tab-pane fade show active" id="pills-location" role="tabpanel" aria-labelledby="pills-location-tab">
+                        
+                      <div class="filter-location">
+                        <h5 class="tog">موقع الفندق<i class="fa fa-plus"></i></h5>
+                        <div class="group">
+                          <label for="1" class="opt">
+                            <input type="radio" id="1">
+                            <p>المنامة & المناطق المجاورة</p>
+                            <div class="num">(<span>12</span>)</div>
+                          </label>
+                          <label for="2" class="opt">
+                            <input type="radio" id="2">
+                            <p>المنامة, منطقة أخري</p>
+                            <div class="num">(<span>12</span>)</div>
+                          </label>
+                        </div>
+                      </div>
+                      
+                    
+                    </div>
+
+
+                    <div class="tab-four tab-pane fade show active" id="pills-facilities" role="tabpanel" aria-labelledby="pills-facilities-tab">
+                    
+                      <div class="filter-facilities">
+                        <h5 class="tog">المرافق<i class="fa fa-plus"></i></h5>
+                        <div class="group">
+                          <label for="22" class="opt">
+                            <input type="checkbox" id="22">
+                            <p>مسبح</p>
+                            <div class="num">(<span>12</span>)</div>
+                          </label>
+                          <label for="33" class="opt">
+                            <input type="checkbox" id="33">
+                            <p>موقف سيارات</p>
+                            <div class="num">(<span>12</span>)</div>
+                          </label>
+                          <button class="more">عرض المزيد</button>
+                        </div>
+                      </div>
+                    
+                    </div>
+
+                    <div class="tab-four tab-pane fade show active" id="pills-type" role="tabpanel" aria-labelledby="pills-type-tab">
+                        
+                      <div class="filter-hType">
+                        <h5 class="tog">نوع الفندق<i class="fa fa-plus"></i></h5>
+                        <div class="group">
+                          <label for="5" class="opt">
+                            <input type="checkbox" id="5">
+                            <p>فندق</p>
+                            <div class="num">(<span>12</span>)</div>
+                          </label>
+                          <label for="6" class="opt">
+                            <input type="checkbox" id="6">
+                            <p>فنادق من نوع آخر</p>
+                            <div class="num">(<span>12</span>)</div>
+                          </label>
+                          <label for="7" class="opt">
+                            <input type="checkbox" id="7">
+                            <p>شقق</p>
+                            <div class="num">(<span>12</span>)</div>
+                          </label>
+                          <label for="8" class="opt">
+                            <input type="checkbox" id="8">
+                            <p>سبا</p>
+                            <div class="num">(<span>12</span>)</div>
+                          </label>
+                        </div>
+                      </div>
+                      
+                    
+                    </div>
+                    
+                    
+                    <div class="tab-five tab-pane fade show active" id="pills-hotel-series" role="tabpanel" aria-labelledby="pills-hotel-series-tab">
+                        
+                      <div class="filter-series">
+                        <h5 class="tog">سلسلة فنادق<i class="fa fa-plus"></i></h5>
+                        <div class="group">
+                          <label for="11" class="opt">
+                            <input type="checkbox" id="11">
+                            <p>فنادق ومنتجعات بودل</p>
+                            <div class="num">(<span>12</span>)</div>
+                          </label>
+                          <label for="12" class="opt">
+                            <input type="checkbox" id="12">
+                            <p>رمادا</p>
+                            <div class="num">(<span>12</span>)</div>
+                          </label>
+                          <label for="13" class="opt">
+                            <input type="checkbox" id="13">
+                            <p>فنادق ويندهام</p>
+                            <div class="num">(<span>12</span>)</div>
+                          </label>
+                          <label for="14" class="opt">
+                            <input type="checkbox" id="14">
+                            <p>روتانا</p>
+                            <div class="num">(<span>12</span>)</div>
+                          </label>
+                          <button class="more">عرض المزيد</button>
+                        </div>
+                      </div>
+                      
+                    
+                    </div>
+
+
+                  </div>
+                </div>
+                
+
+
+              </div><!--Full Filter-->
+            </div>
+            
+            <div class="col-md-8 col-lg-9">
+              <div class="container">
+                <div class="row">
+                  <div class="category col-12">
+                    <div class="txt">التصنيف بحسب :</div>
+                    <div class="links">
+                      <a class="active" href="#">الأكثر مبيعاً</a>
+                      <a href="#">عدد النجوم</a>
+                      <a href="#">السعر</a>
+                    </div>
+                    <!-- <div class="viewMap">
+                      <button title="العرض علي الخريطة"><i class="fa fa-map-marker"></i>الخريطة</button>
+                    </div> -->
+                  </div>
+                  <div class="hotel-block col-12">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-4 p0">
+                          <a href="#">
+                            <div class="recommedned">
+                              <img src="imgs/recommended.png">
+                            </div>
+                            <div class="img-link" style="background-image: url(imgs/hotel-img.jpg);"></div>
+                          </a>
+                        </div>
+                        
+                        <div class="col-lg-5 p0">
+                          <div class="details">
+                            <h5 data-toggle="popover" data-trigger="hover" data-placement="top" data-content="إن هذا أفضل سعر متوفر في الفندق">
+                              <a href="#">فندق و سبا ذا دومين البحرين</a>
+                            </h5>
+                            <div class="hotel-stars">
+                              <span class="fa fa-star true"></span>
+                              <span class="fa fa-star true"></span>
+                              <span class="fa fa-star true"></span>
+                              <span class="fa fa-star true"></span>
+                              <span class="fa fa-star false"></span>
+                            </div>
+                            <address>المنامة ـ منطقة أخرى,المنامة</address>
+                            <div class="services">
+                              <img src="imgs/hotel-services/room.png" title="خدمة غرف">
+                              <img src="imgs/hotel-services/car-parking.png" title="مواقف سيارات">
+                              <img src="imgs/hotel-services/business.png" title="مركز أعمال">
+                              <img src="imgs/hotel-services/swimming_pool.png" title="مسبح">
+                              <img src="imgs/hotel-services/restaurants.png" title="مطاعم في الفندق">
+                            </div>
+                            <div class="room-type">
+                              <p>
+                                <i class="fa fa-bed"></i>Deluxe room
+                              </p>
+                              <p>يشمل السعر: Room only</p>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <div class="col-lg-3 p0">
+                          <div class="price-plan">
+                            <div class="pay-in" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="احجز الآن وادفع لاحقاً في الفندق">                              
+                              الدفع في الفندق
+                            </div>
+                            <p class="old-price">
+                              <span>EGP</span><span class="price">2,863</span>
+                            </p>
+                            <p class="new-price">
+                              <span>EGP</span><span class="price">2,667</span>
+                            </p>
+                            <p class="price-for">
+                              السعرلـ غرفة لـ ليلة
+                            </p>
+                            <div class="reserve">
+                              <button>احجز الآن</button>
+                            </div>
+                            <p class="taxes">
+                              (يشمل السعر جميع الضرائب)
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 <div class="hotel-block col-12">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-4 p0">
+                          <a href="#">
+                            <p class="discount">
+                              <span>خصم</span> - <span class="val">15%</span>
+                            </p>
+                            <div class="img-link" style="background-image: url(imgs/hotel-img.jpg);"></div>
+                          </a>
+                        </div>
+                        
+                        <div class="col-lg-5 p0">
+                          <div class="details">
+                            <h5 data-toggle="popover" data-trigger="hover" data-placement="top" data-content="إن هذا أفضل سعر متوفر في الفندق">
+                              <a href="#">فندق و سبا ذا دومين البحرين</a>
+                            </h5>
+                           <div class="hotel-stars">
+                              <span class="fa fa-star true"></span>
+                              <span class="fa fa-star true"></span>
+                              <span class="fa fa-star true"></span>
+                              <span class="fa fa-star true"></span>
+                              <span class="fa fa-star false"></span>
+                            </div>
+                            <address>المنامة ـ منطقة أخرى,المنامة</address>
+                            <div class="services">
+                              <img src="imgs/hotel-services/room.png" title="خدمة غرف">
+                              <img src="imgs/hotel-services/car-parking.png" title="مواقف سيارات">
+                              <img src="imgs/hotel-services/business.png" title="مركز أعمال">
+                              <img src="imgs/hotel-services/swimming_pool.png" title="مسبح">
+                              <img src="imgs/hotel-services/restaurants.png" title="مطاعم في الفندق">
+                            </div>
+                            <div class="room-type">
+                              <p>
+                                <i class="fa fa-bed"></i>Deluxe room
+                              </p>
+                              <p>يشمل السعر: Room only</p>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <div class="col-lg-3 p0">
+                          <div class="price-plan">
+                            <div class="pay-in" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="احجز الآن وادفع لاحقاً في الفندق">                              
+                              الدفع في الفندق
+                            </div>
+                            <p class="old-price">
+                              <span>EGP</span><span class="price">2,863</span>
+                            </p>
+                            <p class="new-price">
+                              <span>EGP</span><span class="price">2,667</span>
+                            </p>
+                            <p class="price-for">
+                              السعرلـ غرفة لـ ليلة
+                            </p>
+                            <div class="reserve">
+                              <button>احجز الآن</button>
+                            </div>
+                            <p class="taxes">
+                              (يشمل السعر جميع الضرائب)
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 <div class="hotel-block col-12">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-4 p0">
+                          <a href="#">
+                            <p class="discount">
+                              <span>خصم</span> - <span class="val">15%</span>
+                            </p>
+                            <div class="img-link" style="background-image: url(imgs/hotel-img.jpg);"></div>
+                          </a>
+                        </div>
+                        
+                        <div class="col-lg-5 p0">
+                          <div class="details">                            
+                            <h5 data-toggle="popover" data-trigger="hover" data-placement="top" data-content="إن هذا أفضل سعر متوفر في الفندق">
+                              <a href="#">فندق و سبا ذا دومين البحرين</a>
+                            </h5>
+                            <div class="hotel-stars">
+                              <span class="fa fa-star true"></span>
+                              <span class="fa fa-star true"></span>
+                              <span class="fa fa-star true"></span>
+                              <span class="fa fa-star true"></span>
+                              <span class="fa fa-star false"></span>
+                            </div>
+                            <address>المنامة ـ منطقة أخرى,المنامة</address>
+                            <div class="services">
+                              <img src="imgs/hotel-services/room.png" title="خدمة غرف">
+                              <img src="imgs/hotel-services/car-parking.png" title="مواقف سيارات">
+                              <img src="imgs/hotel-services/business.png" title="مركز أعمال">
+                              <img src="imgs/hotel-services/swimming_pool.png" title="مسبح">
+                              <img src="imgs/hotel-services/restaurants.png" title="مطاعم في الفندق">
+                            </div>
+                            <div class="room-type">
+                              <p>
+                                <i class="fa fa-bed"></i>Deluxe room
+                              </p>
+                              <p>يشمل السعر: Room only</p>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <div class="col-lg-3 p0">
+                          <div class="price-plan">
+                            <div class="pay-in" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="احجز الآن وادفع لاحقاً في الفندق">                              
+                              الدفع في الفندق
+                            </div>
+                            <p class="old-price">
+                              <span>EGP</span><span class="price">2,863</span>
+                            </p>
+                            <p class="new-price">
+                              <span>EGP</span><span class="price">2,667</span>
+                            </p>
+                            <p class="price-for">
+                              السعرلـ غرفة لـ ليلة
+                            </p>
+                            <div class="reserve">
+                              <button>احجز الآن</button>
+                            </div>
+                            <p class="taxes">
+                              (يشمل السعر جميع الضرائب)
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    
+      
+    
+<!--    Download App   -->
+    <div class="wrapper">
+      <div class="app">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <img class="app-img img-fluid" src="imgs/app.png" alt="...">
+            </div>
+            <div class="txt col-md-5">
+              <p>أينما كنت ووقتما شئت، يمكنك الحجز مع هوليداي-بغداد!</p>
+              <h5>حمل تطبيق هوليداي-بغداد المجاني الآن!</h5>
+            </div>
+            <div class="links col-md-4">
+              <a href="#"><img class="img-fluid" src="imgs/appstore.png" alt="..."></a>
+              <a href="#"><img class="img-fluid" src="imgs/googleplay.png" alt="..."></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 text-right">
+            <div class="links1">
+              <a href="#">من نحن؟</a>
+              <a href="#">تواصل معنا</a>
+              <a href="#">الشروط والأحكام</a>
+            </div>
+            <div class="links2">
+              <a href="#">سياسة الخصوصية</a>
+              <a href="#">الأسئلة المتكررة</a>
+              <a href="#">&nbsp;</a>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <h5>نحن نقبل</h5>
+            <div class="pay-methodes">
+              <img src="imgs/pay/ansary.png" alt="...">
+              <img src="imgs/pay/sadad.png" alt="...">
+              <img src="imgs/pay/master-card.png" alt="...">
+              <img src="imgs/pay/visa.png" alt="...">
+              <img src="imgs/pay/switch.png" alt="...">
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <h5>تابعونا علي</h5>
+            <div class="social">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-google-plus-g"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid copyright">
+          تم التصميم والبرمجة من قبل شركة Code Studio
+      </div>
+    </div>
+
+
+
+    <script src="assests/jQuery/jquery-3.2.1.min.js"></script>
+    <script src="assests/flexslider/js/jquery.flexslider-min.js"></script>
+    <script src="assests/jqueryui/jquery-ui.min.js"></script>
+    <script src="assests/popper/popper.min.js"></script>
+    <script src="assests/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assests/slick/slick.js"></script>
+    <script src="assests/datedropper/datedropper.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

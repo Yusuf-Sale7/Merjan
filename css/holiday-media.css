@@ -1,0 +1,488 @@
+@media (max-width: 375px) {
+/*  Holiday Home  */
+  .holiday-offers h3 {
+    font-size: 24px
+  }
+  
+  .holiday-deals {
+    padding: 30px 0
+  }
+    
+  .holiday-deals h3 {
+    font-size: 24px
+  }
+  
+  .holiday-special h3 {
+    font-size: 25px;
+    padding-top: 20px
+  }
+  
+  .holiday-special .details .sp h5 {
+    font-size: 15px
+  }
+  
+  .holiday-special .sp-img {
+    height: 100%;
+    width: 100%
+  }
+  
+  .holiday-special .details .sp p {
+    padding-bottom: 10px
+  }
+  
+  .holiday-special .details .nums {
+    position: relative;
+    bottom: 0
+  }
+  
+/*  Holiday Search Result  */
+  .holiday-breadcrumb {
+    display: none
+  }
+  
+  .search-edit {
+    height: auto
+  }
+  
+  .search-edit .place-edit input {
+    font-size: 15px
+  }
+  
+  .search-edit .place-result .place {
+    font-size: 14px
+  }
+  
+  .search-edit .tags a {
+    font-size: 12px
+  }
+  
+  .search-edit .action-btns .edit {
+    width: 200px;
+    font-size: 12px;
+    font-weight: normal;
+    margin: auto;
+    margin-top: 20px
+  }
+  
+  .search-edit .action-btns .exit {
+    float: left
+  }
+  
+  .trips > .container {
+    padding: 0 5px
+  }
+    
+  .trips .trip-block .img-link {
+    height: 200px
+  }
+  
+  .trips .trip-block .details {
+    padding: 10px 15px
+  }
+  
+  .trips .trip-block .details h5 a {
+    font-size: 18px
+  }
+  
+  .trips .trip-block .details .options .opt .title {
+    font-size: 12px
+  }
+  
+  .trips .trip-block .details .options .opt .des select {
+    font-size: 12px
+  }
+  
+  .trips .trip-block .trip-plan .city p {
+    font-size: 14px
+  }
+  
+  .trips .trip-block .details .info,
+  .trips .trip-block .details .other {
+    display: none
+  }
+  
+  .trips .trip-block .trip-plan .old-price {
+    display: inline-block;
+    font-size: 15px
+  }
+  
+  .trips .trip-block .trip-plan .new-price {
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 15px;
+  }
+  
+  .trips .trip-block .trip-plan .provide {
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 15px
+  }
+  
+  .trips .trip-block .trip-plan .reserve {
+    padding-top: 10px
+  }
+  
+  .trips .trip-block .trip-plan .reserve .det {
+    font-size: 14px
+  }
+  
+  .trips .drop-alert .intro h5 {
+    font-size: 15px
+  }
+  
+  .trips .drop-alert .intro p {
+    font-size: 14px
+  }
+  
+  .trips .drop-alert .enter-mail {
+    padding-top: 10px
+  }
+  
+  .trips .drop-alert .enter-mail i {
+    top: 22px
+  }
+  
+  .trips .drop-alert .enter-mail input {
+    width: 100%;
+    font-size: 14px
+  }    
+  
+  .trips .drop-alert .enter-mail button {
+    display: block;
+    top: 8px;
+    width: 100%
+  }
+  
+}
+
+@media (min-width: 376px) and (max-width: 575px) {
+/*  Holiday Home  */
+  .holiday-deals h3 {
+    font-size: 30px
+  }
+  
+  .holiday-special h3 {
+    font-size: 25px;
+    padding-top: 20px
+  }
+  
+  .holiday-special .details .sp h5 {
+    font-size: 15px
+  }
+  
+  .holiday-special .sp-img {
+    height: 100%;
+    width: 100%
+  }
+  
+  .holiday-special .details .sp p {
+    padding-bottom: 10px
+  }
+  
+  .holiday-special .details .nums {
+    position: relative;
+    bottom: 0
+  }
+  
+/*  Holiday Search Result  */
+  .holiday-breadcrumb {
+    display: none
+  }
+  
+  .search-edit {
+    height: auto
+  }
+  
+  .search-edit .place-result .place {
+    font-size: 14px
+  }
+  
+  .search-edit .place-edit input {
+    font-size: 15px
+  }
+    
+  .search-edit .tags a {
+    font-size: 12px
+  }
+  
+  .search-edit .action-btns .edit {
+    width: 200px;
+    font-size: 12px;
+    font-weight: normal;
+    margin: auto;
+    margin-top: 20px
+  }
+  
+  .search-edit .action-btns .exit {
+    float: left
+  }
+  
+  .trips > .container {
+    padding: 0 5px
+  }
+    
+  .trips .trip-block .img-link {
+    height: 200px
+  }
+  
+  .trips .trip-block .details {
+    padding: 10px 15px
+  }
+  
+  .trips .trip-block .details h5 a {
+    font-size: 18px
+  }
+  
+  .trips .trip-block .details .options .opt .title {
+    font-size: 12px
+  }
+  
+  .trips .trip-block .details .options .opt .des select {
+    font-size: 12px
+  }
+  
+  .trips .trip-block .trip-plan .city p {
+    font-size: 14px
+  }
+  
+  .trips .trip-block .details .info,
+  .trips .trip-block .details .other {
+    display: none
+  }
+  
+  .trips .trip-block .trip-plan .old-price {
+    display: inline-block;
+    font-size: 15px
+  }
+  
+  .trips .trip-block .trip-plan .new-price {
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 15px;
+  }
+  
+  .trips .trip-block .trip-plan .provide {
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 15px
+  }
+  
+  .trips .trip-block .trip-plan .reserve {
+    padding-top: 10px
+  }
+  
+  .trips .trip-block .trip-plan .reserve .det {
+    font-size: 14px
+  }
+  
+  .trips .drop-alert .intro h5 {
+    font-size: 15px
+  }
+  
+  .trips .drop-alert .intro p {
+    font-size: 14px
+  }
+  
+  .trips .drop-alert .enter-mail {
+    padding-top: 10px
+  }
+  
+  .trips .drop-alert .enter-mail i {
+    top: 22px
+  }
+  
+  .trips .drop-alert .enter-mail input {
+    width: 100%
+  }    
+  
+  .trips .drop-alert .enter-mail button {
+    display: block;
+    top: 8px;
+    width: 100%
+  }
+  
+ }
+
+@media (min-width: 576px) and (max-width: 767px) {
+/*  Holiday Home  */
+  .holiday-deals h3 {
+    font-size: 30px
+  }
+  
+  .holiday-special h3 {
+    font-size: 25px;
+    padding-top: 20px
+  }
+  
+  .holiday-special .details .sp h5 {
+    font-size: 15px
+  }
+  
+  .holiday-special .sp-img {
+    height: 100%;
+    width: 100%
+  }
+  
+  .holiday-special .details .sp p {
+    padding-bottom: 10px
+  }
+  
+  .holiday-special .details .nums {
+    position: relative;
+    bottom: 0
+  }
+  
+/*  Holiday Search Result  */
+  .search-edit .place-result .place {
+    font-size: 14px
+  }
+  
+  .search-edit .tags a {
+    font-size: 12px
+  }
+  
+  .search-edit .action-btns .edit {
+    width: 75px;
+    font-size: 12px;
+    font-weight: normal
+  }
+  
+  .trips > .container {
+    padding: 0
+  }
+    
+  .trips .trip-block .img-link {
+    height: 200px
+  }
+  
+  .trips .trip-block .details {
+    padding: 10px 15px
+  }
+  
+  .trips .trip-block .details .info,
+  .trips .trip-block .details .other {
+    display: none
+  }
+  
+  .trips .trip-block .trip-plan .old-price {
+    display: inline-block
+  }
+  
+  .trips .trip-block .trip-plan .new-price {
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 20px;
+  }
+  
+  .trips .trip-block .trip-plan .provide {
+    display: inline-block;
+    padding-right: 10px
+  }
+  
+  .trips .trip-block .trip-plan .reserve {
+    padding-top: 10px
+  }
+  
+  .trips .drop-alert .enter-mail {
+    padding-top: 10px
+  }
+  
+  .trips .drop-alert .enter-mail i {
+    top: 22px
+  }
+  
+  .trips .drop-alert .enter-mail input {
+    width: 70%
+  }    
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+/*  Holiday Home  */
+  .holiday-deals h3 {
+    font-size: 30px
+  }
+  
+  .holiday-special h3 {
+    font-size: 25px
+  }
+  
+  .holiday-special .details .sp h5 {
+    font-size: 15px
+  }
+  
+  .holiday-special .sp-img {
+    height: 100%
+  }
+  
+  .holiday-special .details .sp p {
+    padding-bottom: 10px
+  }
+  
+  .holiday-special .details .nums {
+    position: relative;
+    bottom: 0
+  }
+    
+/*  Holiday Search Result  */
+  .search-edit .action-btns .edit {
+    width: 110px
+  }
+  
+  .trips .trip-block .img-link {
+    height: 200px
+  }
+  
+  .trips .trip-block .details {
+    padding: 10px 15px
+  }
+  
+  .trips .trip-block .details .info {
+    font-size: 14px
+  }
+  
+  .trips .trip-block .trip-plan .old-price {
+    display: inline-block
+  }
+  
+  .trips .trip-block .trip-plan .new-price {
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 20px;
+  }
+  
+  .trips .trip-block .trip-plan .provide {
+    display: inline-block;
+    padding-right: 10px
+  }
+  
+  .trips .trip-block .trip-plan .reserve {
+    padding-top: 10px
+  }
+  
+  .trips .drop-alert .enter-mail {
+    padding-top: 10px
+  }
+  
+  .trips .drop-alert .enter-mail i {
+    top: 22px
+  }
+  
+  .trips .drop-alert .enter-mail input {
+    width: 80%
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

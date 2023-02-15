@@ -1,0 +1,596 @@
+<!Doctype html>
+<html>
+  <head>
+		<meta charset="UTF-8">
+		<link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon">
+    <!--IE Comatibility Meta-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <!--First Mobile Meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <title>هوليداي بغداد</title>
+    <link rel="stylesheet" href="assests/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assests/fontAwesome/css/fontawesome-all.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assests/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="assests/jqueryui/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="assests/jqueryui/jquery-ui.theme.min.css">
+    <link rel="stylesheet" type="text/css" href="assests/slick/slick-theme.css">
+    <link rel="stylesheet" href="assests/datedropper/datedropper.min.css"/>
+    <link rel="stylesheet" href="assests/flexslider/css/flexslider.css"/>
+    <link rel="stylesheet" href="css/general.css"/>
+    <link rel="stylesheet" href="css/holiday.css"/>
+    <link rel="stylesheet" href="css/hotels.css"/>
+    <link rel="stylesheet" href="css/activities.css"/>
+    <link rel="stylesheet" href="css/general-media.css"/>
+    <link rel="stylesheet" href="css/hotels-media.css"/>
+    <link rel="stylesheet" href="css/holiday-media.css"/>
+    <link rel="stylesheet" href="css/activities-media.css"/>
+  </head>
+  <body>
+    
+<!--    Navbar   -->
+    <section class="nbar">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html"><img class="img-responsive" src="imgs/logo.png" alt="logo"></a>
+  
+          <div class="dropdown">
+            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="ir fa fa-globe"></i>الفنادق
+            <i class="il fa fa-angle-down"></i>
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#"><i class="fa fa-angle-left"></i>عطلات</a>
+              <a class="dropdown-item" href="hotels-search.html"><i class="fa fa-angle-left"></i>الفنادق</a>
+              <a class="dropdown-item" href="activities.html"><i class="fa fa-angle-left"></i>الأنشطة</a>
+            </div>
+          </div>      
+          
+          
+          
+        </div>
+        <div class="links">
+          <a href="#">عن الموقع</a>
+          <a href="#">اتصل بنا</a>
+        </div>
+        <div class="openMenu">
+          <button class="openBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+</button>
+        </div>
+      </div>
+    </section>
+    
+    
+<!--    Float Menu   -->
+    <section class="float-menu">
+			<div class="menu">
+				<ul class="items">
+					<li><a href="#next"><i class="fa fa-angle-left"></i>الرئيسية</a></li>
+					<li><a href="#features"><i class="fa fa-angle-left"></i>الفنادق</a></li>
+					<li><a href="#features"><i class="fa fa-angle-left"></i>عطلات</a></li>
+					<li><a href="#pricing"><i class="fa fa-angle-left"></i>رحلات الطيران</a></li>
+					<li><a href="#about"><i class="fa fa-angle-left"></i>الأنشطة</a></li>
+					<li><a href="#get"><i class="fa fa-angle-left"></i>المدونة</a></li>
+					<li><a href="#get"><i class="fa fa-angle-left"></i>دليل السفر</a></li>
+          <li class="mobiles">
+            <a href="tel:001122334455"><strong>الرقم الأماراتي :</strong><span>001122334455</span></a>
+            <a href="tel:001122334455"><strong>الرقم الأماراتي :</strong><span>001122334455</span></a>
+          </li>
+				</ul>
+			</div>	
+		</section>
+		
+    
+    
+<!--    Activities Search   -->
+    <div class="wrapper">
+      <section class="activities-breadcrumb">
+        <div class="container">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">الصفحة الرئيسية</a></li>
+              <li class="breadcrumb-item"><a href="#">الفنادق</a></li>
+              <li class="breadcrumb-item active" aria-current="page"><a>المنامة, البحرين</a></li>
+            </ol>
+          </nav>
+        </div>      
+      </section>
+      <section class="research">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="filter-target">
+                <i class="fa fa-map-marker-alt"></i>
+                <input class="form-control" type="text" placeholder="االبلد, المدينة">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="filter-checkIn">
+                <i class="fa fa-calendar-alt"></i>
+                <input class="form-control datePicker" type="text" readonly autocomplete="off" data-init-set="false" data-large-default="true" data-large-mode="true" data-translate-mode="true" placeholder="يوم - شهر - سنة" data-id="datedropper-0" data-format="d - M - Y" data-lang="ar">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="filter-checkOut">
+                <i class="fa fa-calendar-alt"></i>
+                <input class="form-control datePicker" type="text" readonly autocomplete="off" data-init-set="false" data-large-default="true" data-large-mode="true" data-translate-mode="true" placeholder="يوم - شهر - سنة" data-id="datedropper-0" data-format="d - M - Y" data-lang="ar">
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="searchBtn">
+                <button>بحث</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="results">
+        <div class="container p0">
+          <h3 class="header">الأنشطة الأكثر رواجاً في أبوظبي</h3>
+          <div class="row">   
+            <div class="col-md-12 col-lg-9">
+              <div class="hotel-block">
+              
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-4 p0">
+                        <a href="#">
+                          <div class="img-link" style="background-image: url(imgs/hotel-img.jpg);"></div>
+                        </a>
+                      </div>
+
+                      <div class="col-md-8 p0">
+                        <div class="details">
+                          <h5>
+                            <a href="#">اسم النشاط</a>
+                            <span>1200 LE</span>
+                          </h5>
+                          <address>المنامة ـ منطقة أخرى,المنامة</address>
+                          <div class="options">
+                            <button data-toggle="modal" data-target="#activity-iformation">
+                              عرض التفاصيل <i class="fa fa-list"></i>
+                            </button>
+                            <button class="reserve" data-toggle="modal" data-target="#reserve-iformation">
+                              احجز الآن
+                            </button>
+                          </div>
+                          <div class="info">
+                            <strong>معلومات:</strong><span>موعد تسجيل إجراءات الوصول 2 ظهراً موعد إنهاء إجراءات المغادرة ظهراً</span>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+              </div>
+            </div>
+            
+            
+            <div class="d-none d-lg-block d-xl-block col-lg-3">
+
+              <div class="phone-reserve">
+                <p class="icon"><i class="fa fa-phone-volume"></i></p>
+                
+                <p class="title">الحجز علي الهاتف</p>
+                
+                <p class="phone-num">
+                  97142457300+
+                </p>
+                
+                <p class="time">
+                  من التاسعة صباحاً حتى التاسعة مساءً بتوقيت الإمارات
+                </p>
+                
+                <button class="reserve-btn">الحجز علي الهاتف</button>
+              </div>
+              
+              <div class="features">
+                <a href="#"><img class="img-fluid" src="imgs/features.jpg"></a>
+              </div>
+              
+              <div class="why-us">
+                <h5>لماذا هوليداي-بغداد؟</h5>
+                <ul>
+                  <li><i class="fa fa-chevron-left"></i>أفضل الأسعار</li>
+                  <li><i class="fa fa-chevron-left"></i>أكثر من 300,000 فندقاً حول العالم</li>
+                  <li><i class="fa fa-chevron-left"></i>دعم مخصص للعملاء</li>
+                  <li><i class="fa fa-chevron-left"></i>سهولة الإلغاء</li>
+                  <li><i class="fa fa-chevron-left"></i>بدون رسوم حجز</li>
+                </ul>
+              </div>
+            
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-city">
+              <h5>الأنشطة في أبو ظبي</h5>
+              <p>
+                تعد أبوظبي الواقعة في الامارات العربية المتحدة من أهم وأشهر الوجهات السياحية في آسيا كونها تزخر بالمعالم السياحية المذهلة وتضج بحياة ليلية شيقة وتقدم تجربة تسوق لا مثيل لها لجميع المسافرين من العائلات والأزواج وكذلك الرّحّالة، وهي المكان الأمثل لقضاء أمتع الأوقات مع أفراد أسرتك أو أصدقائك. في المدينة شبكة نقل عام جيدة تدعمها وسائل المواصلات المختلفة.يقدم موقع هوليداي-مي مجموعة واسعة من الفنادق الفاخرة والاقتصادية التي تناسب جميع الميزانيات وتضمن لكم إقامة مريحة في أبوظبي ،ويتيح لكم الحجز في الفندق المناسب من خلال عدد من عوامل التصفية التي تحصر الخيارات إلى ما يتوافق ومتطلباتكم الفنادق في أبوظبي عادة ما تترواح أسعارها من 59 دولار إلى 3541 دولار
+              </p>
+            </div>
+          </div>
+          <div class="row other-links">
+            <div class="col-12">
+              <h5>فنادق أبوظبي بحسب المنطقة</h5>
+            </div>
+            <div class="d-none d-md-block col-md-4 col-lg-3 col-xl-3">
+              <div>
+                <i class="fa fa-bed"></i><a href="#">فنادق جزيرة السعديات</a>
+              </div>
+              <div>
+                <i class="fa fa-bed"></i><a href="#">فنادق جزيرة السعديات</a>
+              </div>
+            </div>
+            <div class="d-none d-md-block col-md-4 col-lg-3 col-xl-3">
+              <div>
+                <i class="fa fa-bed"></i><a href="#">فنادق جزيرة السعديات</a>
+              </div>
+              <div>
+                <i class="fa fa-bed"></i><a href="#">فنادق جزيرة السعديات</a>
+              </div>
+            </div>
+            <div class="d-none d-md-block col-md-4 col-lg-3 col-xl-3">
+              <div>
+                <i class="fa fa-bed"></i><a href="#">فنادق جزيرة السعديات</a>
+              </div>
+              <div>
+                <i class="fa fa-bed"></i><a href="#">فنادق جزيرة السعديات</a>
+              </div>
+            </div>
+            <div class="d-none d-md-block col-md-4 col-lg-3 col-xl-3">
+              <div>
+                <i class="fa fa-bed"></i><a href="#">فنادق جزيرة السعديات</a>
+              </div>
+              <div>
+                <i class="fa fa-bed"></i><a href="#">فنادق جزيرة السعديات</a>
+              </div>
+            </div>
+          </div>
+          <div class="row other-links">
+            <div class="col-12">
+              <h5>أفضل الفنادق في الإمارات العربية المتحدة</h5>
+            </div>
+            <div class="d-none d-md-block col-md-4 col-lg-3 col-xl-3">
+              <div>
+                <i class="fa fa-bed"></i><a href="#">فندق في أبوظبي</a>
+              </div>
+              <div>
+                <i class="fa fa-suitcase"></i><a href="#">برامج أبوظبي السياحية</a>
+              </div>
+              <div>
+                <i class="fa fa-plane"></i><a href="#">رحلات طيران رخيصة من أبوظبي</a>
+              </div>
+            </div>
+            <div class="d-none d-md-block col-md-4 col-lg-3 col-xl-3">
+              <div>
+                <i class="fa fa-bed"></i><a href="#">فندق في أبوظبي</a>
+              </div>
+              <div>
+                <i class="fa fa-suitcase"></i><a href="#">برامج أبوظبي السياحية</a>
+              </div>
+              <div>
+                <i class="fa fa-plane"></i><a href="#">رحلات طيران رخيصة من أبوظبي</a>
+              </div>
+            </div>
+            <div class="d-none d-md-block col-md-4 col-lg-3 col-xl-3">
+              <div>
+                <i class="fa fa-bed"></i><a href="#">فندق في أبوظبي</a>
+              </div>
+              <div>
+                <i class="fa fa-suitcase"></i><a href="#">برامج أبوظبي السياحية</a>
+              </div>
+              <div>
+                <i class="fa fa-plane"></i><a href="#">رحلات طيران رخيصة من أبوظبي</a>
+              </div>
+            </div>
+            <div class="d-none d-md-block col-md-4 col-lg-3 col-xl-3">
+              <div>
+                <i class="fa fa-bed"></i><a href="#">فندق في أبوظبي</a>
+              </div>
+              <div>
+                <i class="fa fa-suitcase"></i><a href="#">برامج أبوظبي السياحية</a>
+              </div>
+              <div>
+                <i class="fa fa-plane"></i><a href="#">رحلات طيران رخيصة من أبوظبي</a>
+              </div>
+            </div>
+          </div>
+          <div class="row other-links">
+            <div class="col-12">
+              <h5>فنادق أبوظبي بحسب عدد النجوم</h5>
+            </div>
+            <div class="d-none d-md-block col-md-4 col-lg-3 col-xl-3">
+              <div>
+                <i class="fa fa-bed"></i><a href="#">فندق أبوظبي 3 نجوم</a>
+              </div>
+            </div>
+            <div class="d-none d-md-block col-md-4 col-lg-3 col-xl-3">
+              <div>
+                <i class="fa fa-bed"></i><a href="#">فندق أبوظبي 4 نجوم</a>
+              </div>
+            </div>
+            <div class="d-none d-md-block col-md-4 col-lg-3 col-xl-3">
+              <div>
+                <i class="fa fa-bed"></i><a href="#">فندق أبوظبي 5 نجوم</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="activity-details">
+          <!-- Modal -->
+          <div class="activity-modal modal fade" id="activity-iformation" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <button class="close-modal" type="button" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                  <div class="container p0">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="activity-slider">
+                          <div id="activity-slider" class="flexslider full-slider">
+                            <ul class="slides">
+                              <li>
+                                <div class="img" style="background-image: url(imgs/hotel-info/1.jpg)"></div>
+                              </li>
+                              <li>
+                                <div class="img" style="background-image: url(imgs/hotel-info/2.jpg)"></div>
+                              </li>
+                              <li>
+                                <div class="img" style="background-image: url(imgs/hotel-info/3.jpg)"></div>
+                              </li>
+                              <li>
+                                <div class="img" style="background-image: url(imgs/hotel-info/4.jpg)"></div>
+                              </li>
+                              <li>
+                                <div class="img" style="background-image: url(imgs/hotel-info/5.jpg)"></div>
+                              </li>
+                              <li>
+                                <div class="img" style="background-image: url(imgs/hotel-info/6.jpg)"></div>
+                              </li>
+                              <li>
+                                <div class="img" style="background-image: url(imgs/hotel-info/1.jpg)"></div>
+                              </li>
+                              <li>
+                                <div class="img" style="background-image: url(imgs/hotel-info/2.jpg)"></div>
+                              </li>
+                              <li>
+                                <div class="img" style="background-image: url(imgs/hotel-info/1.jpg)"></div>
+                              </li>
+                              <li>
+                                <div class="img" style="background-image: url(imgs/hotel-info/2.jpg)"></div>
+                              </li>
+                              <li>
+                                <div class="img" style="background-image: url(imgs/hotel-info/1.jpg)"></div>
+                              </li>
+                              <li>
+                                <div class="img" style="background-image: url(imgs/hotel-info/2.jpg)"></div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        
+                        
+                      </div>
+                      <div class="col-lg-6">
+                      
+                        <div class="slider-info">
+                          <nav class="nav nav-tabs nav-fill" id="myTab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-details-tab" data-toggle="tab" href="#nav-details" role="tab" aria-controls="nav-details" aria-selected="true">معلومات الغرفة</a>
+                            <a class="nav-item nav-link" id="nav-amenities-tab" data-toggle="tab" href="#nav-amenities" role="tab" aria-controls="nav-amenities" aria-selected="false">مرافق الغرفة</a>
+                          </nav>
+                          <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-details" role="tabpanel" aria-labelledby="nav-details-tab">
+                            
+                              <div class="service">
+                                <h5>سرير ملكي‫‬ أو سريران فرديان</h5>
+                                <p>398 قدم مربع (37 متر مربع)</p>
+                              </div>
+                              <div class="service">
+                                <h5>الإنترنت</h5>
+                                <p>اتصال مجاني بالإنترنت عن طريق الواي فاي والاتصال السلكي</p>
+                              </div>
+                              
+                            </div>
+                            <div class="tab-pane fade" id="nav-amenities" role="tabpanel" aria-labelledby="nav-amenities-tab">
+                            
+                              <div class="amenities-list">
+                                <ul>
+                                  <li title="رواب حمام"><i class="fa fa-check"></i>رواب حمام</li>
+                                  <li title="أغطية فراش متميزة"><i class="fa fa-check"></i>أغطية فراش متميزة</li>
+                                  <li title="التحكم في حرارة الغرفة"><i class="fa fa-check"></i>التحكم في حرارة الغرفة</li>
+                                  <li title="رواب حمام"><i class="fa fa-check"></i>رواب حمام</li>
+                                  <li title="أغطية فراش متميزة"><i class="fa fa-check"></i>أغطية فراش متميزة</li>
+                                  <li title="التحكم في حرارة الغرفة"><i class="fa fa-check"></i>التحكم في حرارة الغرفة</li>
+                                  <li title="رواب حمام"><i class="fa fa-check"></i>رواب حمام</li>
+                                  <li title="أغطية فراش متميزة"><i class="fa fa-check"></i>أغطية فراش متميزة</li>
+                                  <li title="التحكم في حرارة الغرفة"><i class="fa fa-check"></i>التحكم في حرارة الغرفة</li>
+                                  <li title="رواب حمام"><i class="fa fa-check"></i>رواب حمام</li>
+                                  <li title="أغطية فراش متميزة"><i class="fa fa-check"></i>أغطية فراش متميزة</li>
+                                  <li title="التحكم في حرارة الغرفة"><i class="fa fa-check"></i>التحكم في حرارة الغرفة</li>
+                                  <li title="رواب حمام"><i class="fa fa-check"></i>رواب حمام</li>
+                                  <li title="أغطية فراش متميزة"><i class="fa fa-check"></i>أغطية فراش متميزة</li>
+                                  <li title="التحكم في حرارة الغرفة"><i class="fa fa-check"></i>التحكم في حرارة الغرفة</li>
+                                  <li title="رواب حمام"><i class="fa fa-check"></i>رواب حمام</li>
+                                  <li title="أغطية فراش متميزة"><i class="fa fa-check"></i>أغطية فراش متميزة</li>
+                                  <li title="التحكم في حرارة الغرفة"><i class="fa fa-check"></i>التحكم في حرارة الغرفة</li>
+                                  <li title="رواب حمام"><i class="fa fa-check"></i>رواب حمام</li>
+                                  <li title="أغطية فراش متميزة"><i class="fa fa-check"></i>أغطية فراش متميزة</li>
+                                  <li title="التحكم في حرارة الغرفة"><i class="fa fa-check"></i>التحكم في حرارة الغرفة</li>
+                                  <li title="رواب حمام"><i class="fa fa-check"></i>رواب حمام</li>
+                                  <li title="أغطية فراش متميزة"><i class="fa fa-check"></i>أغطية فراش متميزة</li>
+                                  <li title="التحكم في حرارة الغرفة"><i class="fa fa-check"></i>التحكم في حرارة الغرفة</li>
+                                  <li title="رواب حمام"><i class="fa fa-check"></i>رواب حمام</li>
+                                  <li title="أغطية فراش متميزة"><i class="fa fa-check"></i>أغطية فراش متميزة</li>
+                                  <li title="التحكم في حرارة الغرفة"><i class="fa fa-check"></i>التحكم في حرارة الغرفة</li>
+                                  <li title="رواب حمام"><i class="fa fa-check"></i>رواب حمام</li>
+                                  <li title="أغطية فراش متميزة"><i class="fa fa-check"></i>أغطية فراش متميزة</li>
+                                  <li title="التحكم في حرارة الغرفة"><i class="fa fa-check"></i>التحكم في حرارة الغرفة</li>
+                                  <li title="رواب حمام"><i class="fa fa-check"></i>رواب حمام</li>
+                                  <li title="أغطية فراش متميزة"><i class="fa fa-check"></i>أغطية فراش متميزة</li>
+                                  <li title="التحكم في حرارة الغرفة"><i class="fa fa-check"></i>التحكم في حرارة الغرفة</li>
+                                  <li title="رواب حمام"><i class="fa fa-check"></i>رواب حمام</li>
+                                  <li title="أغطية فراش متميزة"><i class="fa fa-check"></i>أغطية فراش متميزة</li>
+                                  <li title="التحكم في حرارة الغرفة"><i class="fa fa-check"></i>التحكم في حرارة الغرفة</li>
+                                  <li title="رواب حمام"><i class="fa fa-check"></i>رواب حمام</li>
+                                  <li title="أغطية فراش متميزة"><i class="fa fa-check"></i>أغطية فراش متميزة</li>
+                                  <li title="التحكم في حرارة الغرفة"><i class="fa fa-check"></i>التحكم في حرارة الغرفة</li>
+                                  <li title="رواب حمام"><i class="fa fa-check"></i>رواب حمام</li>
+                                  <li title="أغطية فراش متميزة"><i class="fa fa-check"></i>أغطية فراش متميزة</li>
+                                  <li title="التحكم في حرارة الغرفة"><i class="fa fa-check"></i>التحكم في حرارة الغرفة</li>
+                                  <li title="رواب حمام"><i class="fa fa-check"></i>رواب حمام</li>
+                                  <li title="أغطية فراش متميزة"><i class="fa fa-check"></i>أغطية فراش متميزة</li>
+                                  <li title="التحكم في حرارة الغرفة"><i class="fa fa-check"></i>التحكم في حرارة الغرفة</li>
+                                  <li title="رواب حمام"><i class="fa fa-check"></i>رواب حمام</li>
+                                  <li title="أغطية فراش متميزة"><i class="fa fa-check"></i>أغطية فراش متميزة</li>
+                                  <li title="التحكم في حرارة الغرفة"><i class="fa fa-check"></i>التحكم في حرارة الغرفة</li>
+                                  <li title="رواب حمام"><i class="fa fa-check"></i>رواب حمام</li>
+                                  <li title="أغطية فراش متميزة"><i class="fa fa-check"></i>أغطية فراش متميزة</li>
+                                  <li title="التحكم في حرارة الغرفة"><i class="fa fa-check"></i>التحكم في حرارة الغرفة</li>
+                                  <li title="رواب حمام"><i class="fa fa-check"></i>رواب حمام</li>
+                                  <li title="أغطية فراش متميزة"><i class="fa fa-check"></i>أغطية فراش متميزة</li>
+                                  <li title="التحكم في حرارة الغرفة"><i class="fa fa-check"></i>التحكم في حرارة الغرفة</li>
+                                  <li title="رواب حمام"><i class="fa fa-check"></i>رواب حمام</li>
+                                  <li title="أغطية فراش متميزة"><i class="fa fa-check"></i>أغطية فراش متميزة</li>
+                                  <li title="التحكم في حرارة الغرفة"><i class="fa fa-check"></i>التحكم في حرارة الغرفة</li>
+                                  <li title="رواب حمام"><i class="fa fa-check"></i>رواب حمام</li>
+                                  <li title="أغطية فراش متميزة"><i class="fa fa-check"></i>أغطية فراش متميزة</li>
+                                  <li title="التحكم في حرارة الغرفة"><i class="fa fa-check"></i>التحكم في حرارة الغرفة</li>
+                                </ul>
+                                <p>قد يتم تطبيق رسوم إضافية في الفندق على بعض الخدمات والمرافق</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>     
+          
+          
+          <div class="reserve-modal modal fade" id="reserve-iformation" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <button class="close-modal" type="button" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                  <div class="container p0">
+
+                    <div class="reserve-form">
+                      <h5>احجز الآن</h5>                     
+                      <div class="form-group">
+                        <i class="fa fa-user"></i>
+                        <input class="form-control" type="text" placeholder="الاسم الأول">
+                      </div>
+                      <div class="form-group">
+                        <i class="fa fa-users"></i>
+                        <input class="form-control" type="text" placeholder="العائلة">
+                      </div>
+                      <div class="form-group">
+                        <i class="fa fa-map-marker-alt"></i>
+                        <input class="form-control" type="text" placeholder="البلد">
+                      </div>
+                      <div class="form-group">
+                        <i class="fa fa-envelope"></i>
+                        <input class="form-control" type="email" placeholder="الايميل">
+                      </div>
+                      <div class="form-group">
+                        <i class="fa fa-phone"></i>
+                        <input class="form-control" type="number" placeholder="رقم الجوال">
+                      </div>
+                      <div class="submitBtn">
+                        <button type="submit">حجز</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>     
+          
+          
+        </div>
+      </section>
+    </div>
+    
+      
+    
+<!--    Download App   -->
+    <div class="wrapper">
+      <div class="app">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <img class="app-img img-fluid" src="imgs/app.png" alt="...">
+            </div>
+            <div class="txt col-md-5">
+              <p>أينما كنت ووقتما شئت، يمكنك الحجز مع هوليداي-بغداد!</p>
+              <h5>حمل تطبيق هوليداي-بغداد المجاني الآن!</h5>
+            </div>
+            <div class="links col-md-4">
+              <a href="#"><img class="img-fluid" src="imgs/appstore.png" alt="..."></a>
+              <a href="#"><img class="img-fluid" src="imgs/googleplay.png" alt="..."></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 text-right">
+            <div class="links1">
+              <a href="#">من نحن؟</a>
+              <a href="#">تواصل معنا</a>
+              <a href="#">الشروط والأحكام</a>
+            </div>
+            <div class="links2">
+              <a href="#">سياسة الخصوصية</a>
+              <a href="#">الأسئلة المتكررة</a>
+              <a href="#">&nbsp;</a>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <h5>نحن نقبل</h5>
+            <div class="pay-methodes">
+              <img src="imgs/pay/ansary.png" alt="...">
+              <img src="imgs/pay/sadad.png" alt="...">
+              <img src="imgs/pay/master-card.png" alt="...">
+              <img src="imgs/pay/visa.png" alt="...">
+              <img src="imgs/pay/switch.png" alt="...">
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <h5>تابعونا علي</h5>
+            <div class="social">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-google-plus-g"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid copyright">
+          تم التصميم والبرمجة من قبل شركة Code Studio
+      </div>
+    </div>
+
+
+
+    <script src="assests/jQuery/jquery-3.2.1.min.js"></script>
+    <script src="assests/flexslider/js/jquery.flexslider-min.js"></script>
+    <script src="assests/jqueryui/jquery-ui.min.js"></script>
+    <script src="assests/popper/popper.min.js"></script>
+    <script src="assests/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assests/slick/slick.js"></script>
+    <script src="assests/datedropper/datedropper.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

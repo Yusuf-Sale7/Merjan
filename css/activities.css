@@ -1,0 +1,760 @@
+/****   Offers   ****/
+.activities-offers {
+  padding: 80px 0 30px 0;
+  background: #ECF0F3
+}
+
+.activities-offers h3 {
+  text-align: right;
+  padding-bottom: 20px;
+  font-size: 28px
+}
+
+.activities-offers .tempOffers {
+  direction: ltr
+}
+
+.activities-offers .tempOffers .offer-block {
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
+.activities-offers .tempOffers .offer-block .offer {
+  border-radius: 10px;
+  position: relative
+}
+
+.activities-offers .tempOffers .offer-block .offer .offer-img {
+  border-radius: 5px
+}
+
+.activities-offers .tempOffers .offer-block .offer .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  background-image: linear-gradient(transparent,transparent,rgba(0, 0, 0, 0.5) 80%);
+}
+
+.activities-offers .tempOffers .offer-block .offer .overlay p {
+  color: #fff;
+  position: absolute;
+  bottom: 8px;
+  right: 15px;
+  text-align: right;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0
+}
+
+/* Slick */
+.activities-offers .slick-dots li {
+  margin: 0
+}
+
+.activities-offers .slick-dots li button::before {
+  font-size: 10px
+}
+
+.activities-offers .slick-dots li.slick-active button::before {
+  font-size: 10px;
+  color: #007aff;
+  opacity: 1
+}
+
+.activities-offers .slick-dots li button:hover::before {
+  opacity: 0.25;
+  background: none
+}
+
+.activities-offers .slick-dots li.slick-active button:hover::before {
+  opacity: 1;
+}
+
+.activities-offers .slick-prev:before {
+  content: "\f104";
+  font-family: Font Awesome\ 5 Free;
+  font-weight: 900;
+  color: #666;
+  font-size: 25px
+}
+
+.activities-offers .slick-next:before {
+  content: "\f105";
+  font-family: Font Awesome\ 5 Free;
+  font-weight: 900;
+  color: #666;
+  font-size: 25px
+}
+
+
+/*Best Deals*/
+.activities-deals {
+  padding: 50px 0
+}
+
+.activities-deals h3 {
+  text-align: center
+}
+
+.activities-deals p.intro {
+  text-align: center;
+  color: #999;
+  padding-bottom: 15px
+}
+
+.activities-deals .info .activities-img {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 320px;
+  border-radius: 5px
+}
+
+.activities-deals .info .overlay {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  overflow: hidden;
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  border-radius: 5px;
+  background-image: linear-gradient(transparent,transparent,rgba(0, 0, 0, 0.5) 80%);
+}
+
+.activities-deals .info .overlay .city {
+  color: #fff;
+  position: absolute;
+  bottom: 40px;
+  right: 15px;
+  text-align: right;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0
+}
+
+.activities-deals .info .overlay .country {
+  color: #fff;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  text-align: right;
+  font-size: 16px;
+  margin-bottom: 0
+}
+
+/****   Why Us   ****/
+.activities-special {
+  padding: 50px 0
+}
+
+.activities-special .sp-img {
+  float: right
+}
+
+.activities-special h3 {
+  text-align: right;
+  font-size: 35px
+}
+
+.activities-special .intro {
+  text-align: right;
+  padding: 5px 0 15px 0
+}
+
+.activities-special .details {
+  text-align: right;
+  padding-top: 15px
+}
+
+.activities-special .details .sp h5 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333
+}
+
+.activities-special .details .sp p {
+  padding-right: 21px;
+  font-size: 14px;
+  color: #999
+}
+
+.activities-special .details .sp span {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  border: 2px solid #ff8c0d;
+  display: inline-block;
+  margin-left: 10px
+}
+
+.activities-special .details .nums {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.activities-special .details .nums h5 {
+  color: #666;
+  font-size: 20px
+}
+
+.activities-special .details .nums .number {
+  display: inline-block;
+  margin: 2px 0
+}
+
+.activities-special .details .nums .number a {
+  display: inline-block;
+  padding: 8px 10px;
+  background: #ff8c0d;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.activities-special .details .nums .number a i {
+  margin-left: 5px
+}
+
+.activities-special .details .nums .number a span.num {
+  padding-right: 5px
+}
+
+
+/*Activities Search Result*/
+.activities-breadcrumb {
+  box-shadow: 0 4px 8px rgba(0,0,0,.06);
+  -moz-box-shadow: 0 4px 8px rgba(0,0,0,.06);
+  -webkit-box-shadow: 0 4px 8px rgba(0,0,0,.06);
+  margin-bottom: 15px
+}
+
+.activities-breadcrumb .breadcrumb {
+  background: none
+}
+
+.activities-breadcrumb .breadcrumb .breadcrumb-item  a{
+  color: #3f51b5;
+  font-size: 14px
+}
+
+.research {
+  padding: 15px 0;
+  position: relative;
+  margin: auto
+}
+
+.research .row > div {
+  padding-right: 6px;
+  padding-left: 6px
+}
+
+.research .filter-target {
+  position: relative ;
+  margin-bottom: 15px;
+  padding: 0
+}
+
+.research .filter-target i {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  color: #666
+}
+
+.research .filter-target input {
+  border-radius: 0;
+  border: none;
+  height: 40px;
+  text-indent: 25px;
+  border: 1px solid #ccc;
+}
+
+.research .filter-checkIn {
+  position: relative;
+  padding: 0
+}
+
+.research .filter-checkIn i {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  color: #666
+}
+
+.research .filter-checkIn input {
+  border-radius: 0;
+  border: none;
+  height: 40px;
+  text-indent: 25px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+}
+
+.research .filter-checkOut {
+  position: relative;
+  padding: 0
+}
+
+.research .filter-checkOut i {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  color: #666
+}
+
+.research .filter-checkOut input {
+  border-radius: 0;
+  border: none;
+  height: 40px;
+  text-indent: 25px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+}
+
+.research .searchBtn  {
+  padding: 0
+}
+
+.research .searchBtn button  {
+  background-color: #ff0062;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  display: block;
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  font-size: 14px;
+}
+
+.results {
+  background: #F5F4F4;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 1px solid #ccc;
+}
+  
+.results h3.header {
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+  color: #444;
+  margin-bottom: 20px
+}
+  
+.results .hotel-block {
+  background: #fff;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0 15px
+}
+
+.results .hotel-block .img-link {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  border-radius: 0 5px 5px 0;
+  right: -15px;
+  transition: all 0.3s linear;
+}
+
+.results .hotel-block .img-link:hover {
+  filter: saturate(1.8);
+  -webkit-filter: saturate(1.8);
+  -moz-filter: saturate(1.8);
+}
+
+.results .hotel-block .details {
+  text-align: right;
+  padding: 10px 15px 10px 0
+}
+
+.results .hotel-block .details h5 {
+  color: #6DA2FC;
+  font-size: 18px;
+  position: relative;
+  display: block
+}
+
+.results .hotel-block .details h5 a {
+  color: #6DA2FC;
+}
+
+.results .hotel-block .details h5 span {
+  float: left;
+  background: #73b143;
+  color: #fff;
+  padding: 8px 15px;
+  font-size: 13px;
+  border-radius: 3px;
+  margin-left: 7px;
+  transition: all 0.2s linear
+}
+
+.results .hotel-block address {
+  font-size: 14px;
+  margin-bottom: 8px
+}
+
+.results .hotel-block .options {
+  padding: 7px 0
+}
+
+.results .hotel-block .options button {
+  background: linear-gradient(to top,#eeeeed,#fff);
+  color: #333;
+  border: 1px solid #d4d4d4;
+  display: inline-block;
+  padding: 7px 20px;
+  font-size: 13px;
+  border-radius: 3px;
+  margin-left: 7px;
+  transition: all 0.2s linear
+}
+
+.results .hotel-block .options .reserve {
+  background: #ff0061;
+  color: #fff;
+  border: none;
+}
+
+.results .hotel-block .options button:hover {
+  box-shadow: 0 10px 20px rgba(103, 86, 86, 0.19), 0 6px 6px rgba(128, 98, 98, 0.23);
+  -webkit-transform: translateY(-1px);
+  -moz-transform: translateY(-1px);
+  transform: translateY(-1px)
+}
+
+.results .hotel-block .options button i {
+  color: #666;
+  margin-right: 7px;
+}
+
+.results .hotel-block .info {
+  font-size: 14px;
+  color: #333;
+}
+
+.results .hotel-block .info span {
+  padding: 0 5px
+}
+
+.results .activity-details .activity-modal {
+  padding-right: 0!important
+}
+
+.results .activity-details .activity-modal .modal-dialog {
+  max-width: 85%;
+  margin: auto
+}
+
+.results .activity-details .activity-modal .modal-body {
+  padding: 0
+}
+
+.results .activity-details .activity-modal .activity-slider {
+  direction: ltr
+}
+
+.results .activity-details .activity-modal .activity-slider .full-slider {
+  margin-bottom: 0;
+  border: none
+}
+
+.results .activity-details .activity-modal .activity-slider .full-slider .slides li .img {
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+.results .activity-details .activity-modal .activity-slider .thumb-slider {
+  margin-bottom: 0
+}
+
+.results .activity-details .activity-modal .activity-slider .thumb-slider .slides li {
+  cursor: pointer
+}
+
+.results .activity-details .activity-modal .activity-slider .thumb-slider .slides li .img {
+  height: 60px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.results .activity-details .activity-modal .activity-slider .flex-direction-nav a:hover::before {
+  color: rgba(255, 255, 255, 0.8)
+}
+
+.results .activity-details .activity-modal .activity-slider .flex-direction-nav a::before {
+  font-size: 25px;
+  transition: all 0.2s linear
+}
+
+.results .activity-details .activity-modal .slider-info {
+  height: 300px;
+  overflow-y: scroll
+}
+
+.results .activity-details .activity-modal .slider-info .tab-content {
+  padding: 0 10px
+}
+
+.results .activity-details .activity-modal .slider-info .nav-item {
+  font-weight: bold;
+  transition: all 0.2s linear;
+  font-size: 15px
+}
+
+.results .activity-details .activity-modal .slider-info .nav-item:hover {
+  background: #eee
+}
+
+.results .activity-details .activity-modal .slider-info .service {
+  padding: 8px 0;
+  text-align: right
+}
+
+.results .activity-details .activity-modal .slider-info .service h5 {
+  font-size: 15px;
+  font-weight: bold
+}
+
+.results .activity-details .activity-modal .slider-info .service p {
+  font-size: 14px
+}
+
+.results .activity-details .activity-modal .amenities-list {
+  text-align: right
+}
+
+.results .activity-details .activity-modal .amenities-list p {
+  font-size: 14px;
+  color: #555;
+  padding: 10px 0
+}
+  
+.results .activity-details .activity-modal .amenities-list ul li {
+  font-size: 14px;
+  display: inline-block;
+  width: 48%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis
+}
+
+.results .activity-details .activity-modal .amenities-list ul li i {
+  color: #fff;
+  background: #73B143;
+  font-size: 10px;
+  padding: 2px;
+  margin-left: 5px
+}
+
+.results .activity-details .activity-modal .close-modal {
+  background: #ff0062;
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  z-index: 5
+}
+
+.results .activity-details .reserve-modal .reserve-form h5 {
+  text-align: center;
+  font-size: 25px;
+  color: #444;
+  margin-bottom: 30px
+}
+
+.results .activity-details .reserve-modal .reserve-form .form-group {
+  position: relative;
+}
+
+.results .activity-details .reserve-modal .reserve-form .form-group input {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding-right: 50px;
+  height: 40px
+}
+
+.results .activity-details .reserve-modal .reserve-form .form-group input:focus {
+  border: 1px solid #6DA2FC
+}
+
+.results .activity-details .reserve-modal .reserve-form .form-group i {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 40px;
+  width: 40px;
+  background: #6DA2FC;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px
+}
+
+.results .activity-details .reserve-modal .reserve-form .submitBtn {
+  text-align: center;
+  padding-top: 15px
+}
+
+.results .activity-details .reserve-modal .reserve-form .submitBtn button {
+  display: inline-block;
+  padding: 8px 50px;
+  background: #ff0062;
+  border-radius: 30px;
+  color: #fff;
+  border: none
+}
+
+.results .activity-details .reserve-modal .close-modal {
+  background: #ff0062;
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 60px;
+  height: 40px;
+  color: #fff;
+  z-index: 5
+}
+
+
+
+
+.results .phone-reserve {
+  text-align: center;
+  padding: 20px 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+.results .phone-reserve .icon {
+  color: #666;
+  font-size: 30px;
+}
+
+.results .phone-reserve .title {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  color: #333;
+}
+
+.results .phone-reserve .phone-num {
+  color: #3cf;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.results .phone-reserve .time {
+  color: #505050;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.results .phone-reserve .reserve-btn {
+  display: block;
+  margin: auto;
+  background: #73b143;
+  border: none;
+  font-size: 15px;
+  padding: 10px 25px;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.results .features {
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+.results .features img {
+  border-radius: 5px;
+}
+
+.results .why-us {
+  text-align: right;
+  padding: 15px 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.results .why-us ul li {
+  padding: 3px 0;
+  font-size: 14px;
+  color: #666
+}
+
+.results .why-us li i {
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+.results .about-city {
+  text-align: right;
+  margin-top: 30px;
+  padding: 20px 0;
+  border-top: 1px solid #ccc;
+}
+
+.results .about-city h5 {
+  color: #444;
+  font-size: 18px; 
+}
+
+.results .about-city p {
+  color: #666;
+  font-size: 15px;
+}
+
+.results .other-links {
+  text-align: right;
+  padding: 20px 0;
+  border-top: 1px solid #ccc; 
+}
+  
+.results .other-links h5 {
+  color: #444;
+  font-size: 18px; 
+}
+
+.results .other-links i {
+  color: #777;
+  font-size: 14px;
+  margin-left: 10px
+}
+
+.results .other-links a {
+  color: #6DA2FC;
+  font-size: 15px;
+  margin: 8px 0;
+  display: inline-block
+}
+
+
+

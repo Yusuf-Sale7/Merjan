@@ -1,0 +1,679 @@
+<!Doctype html>
+<html>
+  <head>
+		<meta charset="UTF-8">
+		<link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon">
+    <!--IE Comatibility Meta-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <!--First Mobile Meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <title>هوليداي بغداد</title>
+    <link rel="stylesheet" href="assests/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assests/fontAwesome/css/fontawesome-all.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assests/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="assests/jqueryui/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="assests/jqueryui/jquery-ui.theme.min.css">
+    <link rel="stylesheet" type="text/css" href="assests/slick/slick-theme.css">
+    <link rel="stylesheet" href="assests/datedropper/datedropper.min.css"/>
+    <link rel="stylesheet" href="assests/flexslider/css/flexslider.css"/>
+    <link rel="stylesheet" href="css/general.css"/>
+    <link rel="stylesheet" href="css/holiday.css"/>
+    <link rel="stylesheet" href="css/hotels.css"/>
+    <link rel="stylesheet" href="css/activities.css"/>
+    <link rel="stylesheet" href="css/general-media.css"/>
+    <link rel="stylesheet" href="css/hotels-media.css"/>
+    <link rel="stylesheet" href="css/holiday-media.css"/>
+    <link rel="stylesheet" href="css/activities-media.css"/>
+  </head>
+  <body>
+    
+<!--    Navbar   -->
+    <section class="nbar">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html"><img class="img-responsive" src="imgs/logo.png" alt="logo"></a>
+          
+          
+          
+          <div class="dropdown">
+            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="ir fa fa-globe"></i>عطلات
+            <i class="il fa fa-angle-down"></i>
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#"><i class="fa fa-angle-left"></i>عطلات</a>
+              <a class="dropdown-item" href="hotels-search.html"><i class="fa fa-angle-left"></i>الفنادق</a>
+              <a class="dropdown-item" href="activities.html"><i class="fa fa-angle-left"></i>الأنشطة</a>
+            </div>
+          </div>      
+          
+          
+          
+        </div>
+        <div class="links">
+          <a href="#">عن الموقع</a>
+          <a href="#">اتصل بنا</a>
+        </div>
+        <div class="openMenu">
+          <button class="openBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+</button>
+        </div>
+      </div>
+    </section>
+    
+    
+<!--    Float Menu   -->
+    <section class="float-menu">
+			<div class="menu">
+				<ul class="items">
+					<li><a href="#next"><i class="fa fa-angle-left"></i>الرئيسية</a></li>
+					<li><a href="#features"><i class="fa fa-angle-left"></i>الفنادق</a></li>
+					<li><a href="#features"><i class="fa fa-angle-left"></i>عطلات</a></li>
+					<li><a href="#pricing"><i class="fa fa-angle-left"></i>رحلات الطيران</a></li>
+					<li><a href="#about"><i class="fa fa-angle-left"></i>الأنشطة</a></li>
+					<li><a href="#get"><i class="fa fa-angle-left"></i>المدونة</a></li>
+					<li><a href="#get"><i class="fa fa-angle-left"></i>دليل السفر</a></li>
+          <li class="mobiles">
+            <a href="tel:001122334455"><strong>الرقم الأماراتي :</strong><span>001122334455</span></a>
+            <a href="tel:001122334455"><strong>الرقم الأماراتي :</strong><span>001122334455</span></a>
+          </li>
+				</ul>
+			</div>	
+		</section>
+		   
+<!--    Search Results   -->
+    <div class="wrapper">
+      <section class="holiday-breadcrumb">
+        <div class="container">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">الصفحة الرئيسية</a></li>
+              <li class="breadcrumb-item"><a href="#">عطلات</a></li>
+              <li class="breadcrumb-item active" aria-current="page"><a> الامارات العربية المتحدة, دبي</a></li>
+            </ol>
+          </nav>
+        </div>      
+      </section>
+      <section class="search-edit">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-10">
+              <div class="place-result">
+                <p class="place">
+                  عرض<span class="num">2</span>البرامج السياحية في<span class="loc">الامارات العربية المتحدة, دبي</span>
+                </p>
+                <div class="tags">
+                  <a href="#" class="active">الكل</a>
+                  <a href="#">دبي</a>
+                  <a href="#">راس الخيمة</a>
+                </div>
+              </div>
+              <div class="place-edit">
+                <p>ابحث عن وجهتك التالية</p>
+                <input type="text">
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="action-btns">
+                <button class="edit">تعديل البحث</button>
+                <button class="exit"><i class="fa fa-times"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="trips">
+        <div class="container">
+          <div class="trip-block">
+            <div class="row">
+
+              <div class="col-lg-4">
+                <a href="#">
+                  <div class="img-link" style="background-image: url(imgs/dubai.jpg);"></div>
+                </a>
+              </div>
+
+              <div class="col-lg-5">
+                <div class="details">
+                  <h5>
+                    <a href="#">دبي</a>
+                    <p><span>دبي</span> <span class="nights">( 3 ليالٍ )</span></p>
+                  </h5>
+
+                  <div class="options">
+                    <div class="opt">
+                      <div class="title">
+                        <i class="fa fa-moon"></i>عدد الليالي
+                      </div>
+                      <div class="des">
+                        <select>
+                          <option>3 ليالٍ</option>
+                          <option>4 ليالٍ</option>
+                          <option>5 ليالٍ</option>
+                          <option>6 ليالٍ</option>
+                        </select>
+                        <i class="fa fa-caret-down"></i>
+                      </div>
+                    </div>
+                   <div class="opt">
+                      <div class="title">
+                        <i class="fa fa-bed"></i>خيارات الفندق
+                      </div>
+                      <div class="des">
+                        <select>
+                          <option>3 نجوم</option>
+                          <option>4 نجوم</option>
+                          <option>5 نجوم</option>
+                        </select>
+                        <i class="fa fa-caret-down"></i>
+                      </div>
+                    </div>
+                   <div class="opt">
+                      <div class="title">
+                        <i class="fa fa-plane"></i>خيارات الطيران
+                      </div>
+                      <div class="des">
+                        <select>
+                          <option>طيران ناس</option>
+                          <option>الخطوط السعودية</option>
+                          <option>العربية للطيران</option>
+                          <option>طيران الإمارات</option>
+                        </select>
+                        <i class="fa fa-caret-down"></i>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="other">
+                    <h5>خيارات الفندق</h5>
+                    <p><i class="fa fa-binoculars"></i>الأنشطة</p>
+                    <p><i class="fa fa-car"></i>النقل من وإلى المطار</p>
+                    <p><i class="fa fa-utensils"></i>وجبة الإفطار</p>
+                  </div>
+
+                  <div class="info">
+                    <i class="fa fa-info-circle"></i>
+                    سافر معنا إلى دبي التي فيها ما يناسب جميع السياح من محبي التسوق والشواطئ والترفيه وغير ذلك الكثير
+                  </div>
+
+
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+
+                <div class="trip-plan">
+
+                  <div class="city">
+                    <p>المغادرة من</p>
+                    <select>
+                      <option>جدة</option>
+                      <option>الرياض</option>
+                      <option>الطائف</option>
+                      <option>القصيم</option>
+                    </select>
+                    <i class="fa fa-caret-down"></i>
+                  </div>
+
+                  <p class="old-price">
+                    من <span class="price"><span>EGP </span> <span>2,863</span></span>
+                  </p>
+                  <p class="new-price">
+                    إلي <span class="price"><span>EGP </span> <span>2,667</span></span>
+                  </p>
+                  <p class="provide">
+                    التوفير <span>EGP </span> <span class="diff">196</span>
+                  </p>
+                  <p class="price-for">
+                    السعر للشخص في غرفة مزدوجة
+                  </p>
+                  <div class="reserve">
+                    <button class="det">التفاصيل</button>
+                  </div>
+                </div>
+
+              </div>
+
+             </div>
+          </div>
+          <div class="trip-block">
+            <div class="row">
+
+              <div class="col-lg-4">
+                <a href="#">
+                  <div class="img-link" style="background-image: url(imgs/dubai.jpg);"></div>
+                </a>
+              </div>
+
+              <div class="col-lg-5">
+                <div class="details">
+                  <h5>
+                    <a href="#">دبي</a>
+                    <p><span>دبي</span> <span class="nights">( 3 ليالٍ )</span></p>
+                  </h5>
+
+                  <div class="options">
+                    <div class="opt">
+                      <div class="title">
+                        <i class="fa fa-moon"></i>عدد الليالي
+                      </div>
+                      <div class="des">
+                        <select>
+                          <option>3 ليالٍ</option>
+                          <option>4 ليالٍ</option>
+                          <option>5 ليالٍ</option>
+                          <option>6 ليالٍ</option>
+                        </select>
+                        <i class="fa fa-caret-down"></i>
+                      </div>
+                    </div>
+                   <div class="opt">
+                      <div class="title">
+                        <i class="fa fa-bed"></i>خيارات الفندق
+                      </div>
+                      <div class="des">
+                        <select>
+                          <option>3 نجوم</option>
+                          <option>4 نجوم</option>
+                          <option>5 نجوم</option>
+                        </select>
+                        <i class="fa fa-caret-down"></i>
+                      </div>
+                    </div>
+                   <div class="opt">
+                      <div class="title">
+                        <i class="fa fa-plane"></i>خيارات الطيران
+                      </div>
+                      <div class="des">
+                        <select>
+                          <option>طيران ناس</option>
+                          <option>الخطوط السعودية</option>
+                          <option>العربية للطيران</option>
+                          <option>طيران الإمارات</option>
+                        </select>
+                        <i class="fa fa-caret-down"></i>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="other">
+                    <h5>خيارات الفندق</h5>
+                    <p><i class="fa fa-binoculars"></i>الأنشطة</p>
+                    <p><i class="fa fa-car"></i>النقل من وإلى المطار</p>
+                    <p><i class="fa fa-utensils"></i>وجبة الإفطار</p>
+                  </div>
+
+                  <div class="info">
+                    <i class="fa fa-info-circle"></i>
+                    سافر معنا إلى دبي التي فيها ما يناسب جميع السياح من محبي التسوق والشواطئ والترفيه وغير ذلك الكثير
+                  </div>
+
+
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+
+                <div class="trip-plan">
+
+                  <div class="city">
+                    <p>المغادرة من</p>
+                    <select>
+                      <option>جدة</option>
+                      <option>الرياض</option>
+                      <option>الطائف</option>
+                      <option>القصيم</option>
+                    </select>
+                    <i class="fa fa-caret-down"></i>
+                  </div>
+
+                  <p class="old-price">
+                    من <span class="price"><span>EGP </span> <span>2,863</span></span>
+                  </p>
+                  <p class="new-price">
+                    إلي <span class="price"><span>EGP </span> <span>2,667</span></span>
+                  </p>
+                  <p class="provide">
+                    التوفير <span>EGP </span> <span class="diff">196</span>
+                  </p>
+                  <p class="price-for">
+                    السعر للشخص في غرفة مزدوجة
+                  </p>
+                  <div class="reserve">
+                    <button class="det">التفاصيل</button>
+                  </div>
+                </div>
+
+              </div>
+
+             </div>
+          </div>
+          <div class="trip-block">
+            <div class="row">
+
+              <div class="col-lg-4">
+                <a href="#">
+                  <div class="img-link" style="background-image: url(imgs/dubai.jpg);"></div>
+                </a>
+              </div>
+
+              <div class="col-lg-5">
+                <div class="details">
+                  <h5>
+                    <a href="#">دبي</a>
+                    <p><span>دبي</span> <span class="nights">( 3 ليالٍ )</span></p>
+                  </h5>
+
+                  <div class="options">
+                    <div class="opt">
+                      <div class="title">
+                        <i class="fa fa-moon"></i>عدد الليالي
+                      </div>
+                      <div class="des">
+                        <select>
+                          <option>3 ليالٍ</option>
+                          <option>4 ليالٍ</option>
+                          <option>5 ليالٍ</option>
+                          <option>6 ليالٍ</option>
+                        </select>
+                        <i class="fa fa-caret-down"></i>
+                      </div>
+                    </div>
+                   <div class="opt">
+                      <div class="title">
+                        <i class="fa fa-bed"></i>خيارات الفندق
+                      </div>
+                      <div class="des">
+                        <select>
+                          <option>3 نجوم</option>
+                          <option>4 نجوم</option>
+                          <option>5 نجوم</option>
+                        </select>
+                        <i class="fa fa-caret-down"></i>
+                      </div>
+                    </div>
+                   <div class="opt">
+                      <div class="title">
+                        <i class="fa fa-plane"></i>خيارات الطيران
+                      </div>
+                      <div class="des">
+                        <select>
+                          <option>طيران ناس</option>
+                          <option>الخطوط السعودية</option>
+                          <option>العربية للطيران</option>
+                          <option>طيران الإمارات</option>
+                        </select>
+                        <i class="fa fa-caret-down"></i>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="other">
+                    <h5>خيارات الفندق</h5>
+                    <p><i class="fa fa-binoculars"></i>الأنشطة</p>
+                    <p><i class="fa fa-car"></i>النقل من وإلى المطار</p>
+                    <p><i class="fa fa-utensils"></i>وجبة الإفطار</p>
+                  </div>
+
+                  <div class="info">
+                    <i class="fa fa-info-circle"></i>
+                    سافر معنا إلى دبي التي فيها ما يناسب جميع السياح من محبي التسوق والشواطئ والترفيه وغير ذلك الكثير
+                  </div>
+
+
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+
+                <div class="trip-plan">
+
+                  <div class="city">
+                    <p>المغادرة من</p>
+                    <select>
+                      <option>جدة</option>
+                      <option>الرياض</option>
+                      <option>الطائف</option>
+                      <option>القصيم</option>
+                    </select>
+                    <i class="fa fa-caret-down"></i>
+                  </div>
+
+                  <p class="old-price">
+                    من <span class="price"><span>EGP </span> <span>2,863</span></span>
+                  </p>
+                  <p class="new-price">
+                    إلي <span class="price"><span>EGP </span> <span>2,667</span></span>
+                  </p>
+                  <p class="provide">
+                    التوفير <span>EGP </span> <span class="diff">196</span>
+                  </p>
+                  <p class="price-for">
+                    السعر للشخص في غرفة مزدوجة
+                  </p>
+                  <div class="reserve">
+                    <button class="det">التفاصيل</button>
+                  </div>
+                </div>
+
+              </div>
+
+             </div>
+          </div>
+          <div class="trip-block">
+            <div class="row">
+
+              <div class="col-lg-4">
+                <a href="#">
+                  <div class="img-link" style="background-image: url(imgs/dubai.jpg);"></div>
+                </a>
+              </div>
+
+              <div class="col-lg-5">
+                <div class="details">
+                  <h5>
+                    <a href="#">دبي</a>
+                    <p><span>دبي</span> <span class="nights">( 3 ليالٍ )</span></p>
+                  </h5>
+
+                  <div class="options">
+                    <div class="opt">
+                      <div class="title">
+                        <i class="fa fa-moon"></i>عدد الليالي
+                      </div>
+                      <div class="des">
+                        <select>
+                          <option>3 ليالٍ</option>
+                          <option>4 ليالٍ</option>
+                          <option>5 ليالٍ</option>
+                          <option>6 ليالٍ</option>
+                        </select>
+                        <i class="fa fa-caret-down"></i>
+                      </div>
+                    </div>
+                   <div class="opt">
+                      <div class="title">
+                        <i class="fa fa-bed"></i>خيارات الفندق
+                      </div>
+                      <div class="des">
+                        <select>
+                          <option>3 نجوم</option>
+                          <option>4 نجوم</option>
+                          <option>5 نجوم</option>
+                        </select>
+                        <i class="fa fa-caret-down"></i>
+                      </div>
+                    </div>
+                   <div class="opt">
+                      <div class="title">
+                        <i class="fa fa-plane"></i>خيارات الطيران
+                      </div>
+                      <div class="des">
+                        <select>
+                          <option>طيران ناس</option>
+                          <option>الخطوط السعودية</option>
+                          <option>العربية للطيران</option>
+                          <option>طيران الإمارات</option>
+                        </select>
+                        <i class="fa fa-caret-down"></i>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="other">
+                    <h5>خيارات الفندق</h5>
+                    <p><i class="fa fa-binoculars"></i>الأنشطة</p>
+                    <p><i class="fa fa-car"></i>النقل من وإلى المطار</p>
+                    <p><i class="fa fa-utensils"></i>وجبة الإفطار</p>
+                  </div>
+
+                  <div class="info">
+                    <i class="fa fa-info-circle"></i>
+                    سافر معنا إلى دبي التي فيها ما يناسب جميع السياح من محبي التسوق والشواطئ والترفيه وغير ذلك الكثير
+                  </div>
+
+
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+
+                <div class="trip-plan">
+
+                  <div class="city">
+                    <p>المغادرة من</p>
+                    <select>
+                      <option>جدة</option>
+                      <option>الرياض</option>
+                      <option>الطائف</option>
+                      <option>القصيم</option>
+                    </select>
+                    <i class="fa fa-caret-down"></i>
+                  </div>
+
+                  <p class="old-price">
+                    من <span class="price"><span>EGP </span> <span>2,863</span></span>
+                  </p>
+                  <p class="new-price">
+                    إلي <span class="price"><span>EGP </span> <span>2,667</span></span>
+                  </p>
+                  <p class="provide">
+                    التوفير <span>EGP </span> <span class="diff">196</span>
+                  </p>
+                  <p class="price-for">
+                    السعر للشخص في غرفة مزدوجة
+                  </p>
+                  <div class="reserve">
+                    <button class="det">التفاصيل</button>
+                  </div>
+                </div>
+
+              </div>
+
+             </div>
+          </div>
+          <div class="drop-alert">
+            
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="intro">
+                  <h5>يمكن أن ينخفض سعر هذه البرامج السياحية في أي وقت!</h5>
+                  <p>سجّل بريدك الإلكتروني معنا للحصول على أفضل العروض والأسعار.</p>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div class="enter-mail">
+                  <input type="email" placeholder="الرجاء إدخال بريدك الإلكتروني">
+                  <button type="submit">سجل الآن!</button>
+                  <i class="fa fa-envelope"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+      
+<!--    Download App   -->
+    <div class="wrapper">
+      <div class="app">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <img class="app-img img-fluid" src="imgs/app.png" alt="...">
+            </div>
+            <div class="txt col-md-5">
+              <p>أينما كنت ووقتما شئت، يمكنك الحجز مع هوليداي-بغداد!</p>
+              <h5>حمل تطبيق هوليداي-بغداد المجاني الآن!</h5>
+            </div>
+            <div class="links col-md-4">
+              <a href="#"><img class="img-fluid" src="imgs/appstore.png" alt="..."></a>
+              <a href="#"><img class="img-fluid" src="imgs/googleplay.png" alt="..."></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 text-right">
+            <div class="links1">
+              <a href="#">من نحن؟</a>
+              <a href="#">تواصل معنا</a>
+              <a href="#">الشروط والأحكام</a>
+            </div>
+            <div class="links2">
+              <a href="#">سياسة الخصوصية</a>
+              <a href="#">الأسئلة المتكررة</a>
+              <a href="#">&nbsp;</a>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <h5>نحن نقبل</h5>
+            <div class="pay-methodes">
+              <img src="imgs/pay/ansary.png" alt="...">
+              <img src="imgs/pay/sadad.png" alt="...">
+              <img src="imgs/pay/master-card.png" alt="...">
+              <img src="imgs/pay/visa.png" alt="...">
+              <img src="imgs/pay/switch.png" alt="...">
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <h5>تابعونا علي</h5>
+            <div class="social">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-google-plus-g"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid copyright">
+          تم التصميم والبرمجة من قبل شركة Code Studio
+      </div>
+    </div>
+
+
+
+    <script src="assests/jQuery/jquery-3.2.1.min.js"></script>
+    <script src="assests/flexslider/js/jquery.flexslider-min.js"></script>
+    <script src="assests/jqueryui/jquery-ui.min.js"></script>
+    <script src="assests/popper/popper.min.js"></script>
+    <script src="assests/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assests/slick/slick.js"></script>
+    <script src="assests/datedropper/datedropper.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
